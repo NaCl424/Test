@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="120" id="KGk-i7-Jjw" customClass="MovieCell">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="339" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S3v-MA-MlJ">
+                        <rect key="frame" x="8" y="10" width="80" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="0Z0-kF-qEe"/>
+                            <constraint firstAttribute="width" constant="80" id="Il0-0k-mTO"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKq-G9-TIw">
+                        <rect key="frame" x="96" y="10" width="225" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="2V5-a7-oio"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aI7-HN-ocO" customClass="RatingView">
+                        <rect key="frame" x="96" y="45" width="125" height="25"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="125" id="Gai-OK-8nV"/>
+                            <constraint firstAttribute="height" constant="25" id="K3T-bf-zGK"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5t-AG-6A9">
+                        <rect key="frame" x="279" y="46" width="42" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="coN-70-RzO"/>
+                            <constraint firstAttribute="width" constant="42" id="o3l-gu-H0f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZt-LM-mXy">
+                        <rect key="frame" x="96" y="89" width="225" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="VS6-fB-uHd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="HZt-LM-mXy" secondAttribute="trailing" constant="10" id="2yn-fy-eMD"/>
+                    <constraint firstItem="GKq-G9-TIw" firstAttribute="top" secondItem="S3v-MA-MlJ" secondAttribute="top" id="66B-dj-FV3"/>
+                    <constraint firstItem="S3v-MA-MlJ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="6A8-r0-PgG"/>
+                    <constraint firstItem="GKq-G9-TIw" firstAttribute="leading" secondItem="S3v-MA-MlJ" secondAttribute="trailing" constant="8" id="79t-bZ-Yo3"/>
+                    <constraint firstItem="HZt-LM-mXy" firstAttribute="leading" secondItem="S3v-MA-MlJ" secondAttribute="trailing" constant="8" id="9hu-af-jCo"/>
+                    <constraint firstItem="aI7-HN-ocO" firstAttribute="top" secondItem="GKq-G9-TIw" secondAttribute="bottom" constant="8" id="Civ-xa-BOv"/>
+                    <constraint firstItem="S3v-MA-MlJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="DPq-OJ-MAQ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="GKq-G9-TIw" secondAttribute="trailing" constant="10" id="KfU-Z1-356"/>
+                    <constraint firstItem="g5t-AG-6A9" firstAttribute="centerY" secondItem="aI7-HN-ocO" secondAttribute="centerY" id="Mef-zn-Xuz"/>
+                    <constraint firstItem="aI7-HN-ocO" firstAttribute="leading" secondItem="GKq-G9-TIw" secondAttribute="leading" id="OBE-XM-RxE"/>
+                    <constraint firstItem="HZt-LM-mXy" firstAttribute="bottom" secondItem="S3v-MA-MlJ" secondAttribute="bottom" id="Uew-0r-tCa"/>
+                    <constraint firstItem="g5t-AG-6A9" firstAttribute="trailing" secondItem="GKq-G9-TIw" secondAttribute="trailing" id="mAk-OT-AQK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="MovieImage" destination="S3v-MA-MlJ" id="T13-tT-yAD"/>
+                <outlet property="ratingLabel" destination="g5t-AG-6A9" id="Lem-cQ-KuU"/>
+                <outlet property="ratingView" destination="aI7-HN-ocO" id="wit-9b-Suf"/>
+                <outlet property="titleLabel" destination="GKq-G9-TIw" id="mud-Hr-qDJ"/>
+                <outlet property="yearLabel" destination="HZt-LM-mXy" id="WIv-Tw-yfd"/>
+            </connections>
+            <point key="canvasLocation" x="255.5" y="323"/>
+        </tableViewCell>
+    </objects>
+</document>

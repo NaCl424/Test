@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="EBQ-Ze-icj">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Base Navigation Controller-->
+        <scene sceneID="RX4-Gu-LzS">
+            <objects>
+                <navigationController id="EBQ-Ze-icj" customClass="BaseNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UJA-e5-Zy1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2HY-W9-56H" kind="relationship" relationship="rootViewController" id="Km4-wx-3Rl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pCb-bp-PZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-194" y="321"/>
+        </scene>
+        <!--Movie View Controller-->
+        <scene sceneID="WIz-w4-TNk">
+            <objects>
+                <viewController id="2HY-W9-56H" customClass="MovieViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jTp-Js-mnq"/>
+                        <viewControllerLayoutGuide type="bottom" id="eTD-Jo-TsM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eI8-he-p4A">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0py-Tu-UBt" userLabel="postView">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="F42-vT-k53" userLabel="listView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2HY-W9-56H" id="QYu-l2-RpO"/>
+                                    <outlet property="delegate" destination="2HY-W9-56H" id="mtW-gN-avA"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="0py-Tu-UBt" firstAttribute="leading" secondItem="eI8-he-p4A" secondAttribute="leadingMargin" constant="-20" id="82W-Rs-MAo"/>
+                            <constraint firstItem="eTD-Jo-TsM" firstAttribute="top" secondItem="F42-vT-k53" secondAttribute="bottom" id="9tR-Cp-IzO"/>
+                            <constraint firstItem="0py-Tu-UBt" firstAttribute="top" secondItem="jTp-Js-mnq" secondAttribute="bottom" id="Qfc-ak-N2O"/>
+                            <constraint firstItem="F42-vT-k53" firstAttribute="leading" secondItem="eI8-he-p4A" secondAttribute="leadingMargin" constant="-20" id="T2e-KI-gc7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="F42-vT-k53" secondAttribute="trailing" constant="-20" id="hHf-iS-r5s"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0py-Tu-UBt" secondAttribute="trailing" constant="-20" id="ovV-8T-Mdb"/>
+                            <constraint firstItem="F42-vT-k53" firstAttribute="top" secondItem="eI8-he-p4A" secondAttribute="topMargin" id="piS-X2-5P0"/>
+                            <constraint firstItem="eTD-Jo-TsM" firstAttribute="top" secondItem="0py-Tu-UBt" secondAttribute="bottom" id="vqL-nI-grK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="980-2P-cJL"/>
+                    <connections>
+                        <outlet property="listView" destination="F42-vT-k53" id="mWQ-TX-TUy"/>
+                        <outlet property="postView" destination="0py-Tu-UBt" id="FtN-rL-lGL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cqp-Pw-mVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="753" y="372"/>
+        </scene>
+    </scenes>
+</document>
