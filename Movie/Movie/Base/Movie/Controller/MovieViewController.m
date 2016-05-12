@@ -97,7 +97,7 @@
     
     
 }
-#pragma mark UITableViewDelegate
+#pragma mark UITableViewDelegate, UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
     return _movies.count;
