@@ -7,8 +7,14 @@
 //
 
 #import "NewsViewController.h"
+#import "JSONDataService.h"
+#import "News.h"
+#import "UIImageView+WebCache.h"
 
-@interface NewsViewController ()
+@interface NewsViewController () <UITableViewDelegate, UITableViewDataSource>
+{
+    NSMutableArray *_newsArr;
+}
 
 @end
 
@@ -16,9 +22,60 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //加载数据
+    [self loadJsonFile];
+
     
 }
+
+- (void)loadJsonFile {
+    
+    NSArray *result = [JSONDataService loadJsonFileWithName:@"news_list"];
+    _newsArr = [[NSMutableArray alloc] init];
+//    NSLog(@"%@", result);
+    for (NSDictionary *dic in result) {
+        News *n = [[News alloc] initWithDictionary:dic];
+        [_newsArr addObject:n];
+    }
+    
+    
+}
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    return _newsArr.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell *cell = nil;
+    if (indexPath.row == 0) {
+        cell = [tableView dequeueReusableCellWithIdentifier:@"TopNewsCell"];
+        //获取第一个单元格数据
+        News *n = [_newsArr firstObject];
+        UIImageView *topImageView = (UIImageView *)[cell.contentView viewWithTag:100];
+        UILabel *topLabel = (UILabel *)[cell.contentView viewWithTag:101];
+        //填充数据
+        [topImageView sd_setImageWithURL:[NSURL URLWithString:n.image]];
+        topLabel.text = n.title;
+        
+    }else {
+        cell = [tableView dequeueReusableCellWithIdentifier:@"NewsCell"];
+    }
+    
+    
+    return cell;
+    
+}- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.row == 0) {
+        return 180;
+    }
+    return 80;
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -9,6 +9,7 @@
 #import "MovieViewController.h"
 #import "Movie.h"
 #import "MovieCell.h"
+#import "JSONDataService.h"
 
 @interface MovieViewController () <UITableViewDelegate, UITableViewDataSource>
 {
@@ -30,21 +31,17 @@
     //设置表视图初始偏移
     _listView.contentInset = UIEdgeInsetsMake(64, 0, 0, 0);
     
+    
+    [_listView registerNib:[UINib nibWithNibName:@"MovieCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"MovieCell"];
+    
 }
 
 //加载数据
 - (void)loadJsonFile {
     
-    //读取文件
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"us_box" ofType:@"json"];
     
-    //加载数据
-    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    NSDictionary *result = [JSONDataService loadJsonFileWithName:@"us_box"];
     
-    //解析json
-    NSDictionary *result = [NSJSONSerialization JSONObjectWithData:data
-                                                           options:NSJSONReadingMutableLeaves error:nil];
-
     _movies = [[NSMutableArray alloc] init];
     //    NSLog(@"%@", result);
     for (NSDictionary *dict in result[@"subjects"]) {
@@ -97,7 +94,7 @@
     
     
 }
-#pragma mark UITableViewDelegate, UITableViewDataSource
+#pragma mark UITableViewDelegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
     return _movies.count;
@@ -106,10 +103,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     MovieCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MovieCell"];
-    
-    if (cell == nil) {
-        cell = [[[NSBundle mainBundle] loadNibNamed:@"MovieCell" owner:nil options:nil] lastObject];
-    }
+//    NSLog(@"cell=%@", cell);
+//    if (cell == nil) {
+//        cell = [[[NSBundle mainBundle] loadNibNamed:@"MovieCell" owner:nil options:nil] lastObject];
+//    }
     
     cell.movie = _movies[indexPath.row];
     

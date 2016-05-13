@@ -46,6 +46,8 @@
 		DF2362E51CE3178A00F083BB /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2362D51CE3178A00F083BB /* UIView+WebCacheOperation.m */; };
 		DF2362E81CE322C000F083BB /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2362E71CE322C000F083BB /* RatingView.m */; };
 		DF2362EB1CE3247A00F083BB /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2362EA1CE3247A00F083BB /* UIViewExt.m */; };
+		DF2363151CE5652700F083BB /* JSONDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2363141CE5652700F083BB /* JSONDataService.m */; };
+		DF2363181CE56D1D00F083BB /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2363171CE56D1D00F083BB /* News.m */; };
 		DFAC782C1CE1B1CB001DC46D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC782B1CE1B1CB001DC46D /* main.m */; };
 		DFAC782F1CE1B1CB001DC46D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC782E1CE1B1CB001DC46D /* AppDelegate.m */; };
 		DFAC78371CE1B1CB001DC46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAC78361CE1B1CB001DC46D /* Assets.xcassets */; };
@@ -272,7 +274,7 @@
 		DF2362901CE2D33500F083BB /* news.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = news.html; sourceTree = "<group>"; };
 		DF2362911CE2D33500F083BB /* news_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news_detail.json; sourceTree = "<group>"; };
 		DF2362921CE2D33500F083BB /* news_detail_images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news_detail_images.json; sourceTree = "<group>"; };
-		DF2362931CE2D33500F083BB /* news_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news_list.json; sourceTree = "<group>"; };
+		DF2362931CE2D33500F083BB /* news_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = news_list.json; path = "../../../数据/news_list.json"; sourceTree = "<group>"; };
 		DF2362941CE2D33500F083BB /* readyMovie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = readyMovie.json; sourceTree = "<group>"; };
 		DF2362951CE2D33500F083BB /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
 		DF2362961CE2D33500F083BB /* top250.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top250.json; sourceTree = "<group>"; };
@@ -320,6 +322,10 @@
 		DF2362E71CE322C000F083BB /* RatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingView.m; sourceTree = "<group>"; };
 		DF2362E91CE3247A00F083BB /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		DF2362EA1CE3247A00F083BB /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		DF2363131CE5652700F083BB /* JSONDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDataService.h; sourceTree = "<group>"; };
+		DF2363141CE5652700F083BB /* JSONDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDataService.m; sourceTree = "<group>"; };
+		DF2363161CE56D1D00F083BB /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		DF2363171CE56D1D00F083BB /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		DFAC78271CE1B1CB001DC46D /* Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAC782B1CE1B1CB001DC46D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFAC782D1CE1B1CB001DC46D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -570,7 +576,6 @@
 				DF2362901CE2D33500F083BB /* news.html */,
 				DF2362911CE2D33500F083BB /* news_detail.json */,
 				DF2362921CE2D33500F083BB /* news_detail_images.json */,
-				DF2362931CE2D33500F083BB /* news_list.json */,
 				DF2362941CE2D33500F083BB /* readyMovie.json */,
 				DF2362951CE2D33500F083BB /* search.json */,
 				DF2362961CE2D33500F083BB /* top250.json */,
@@ -585,6 +590,8 @@
 				DF2362E91CE3247A00F083BB /* UIViewExt.h */,
 				DF2362EA1CE3247A00F083BB /* UIViewExt.m */,
 				DF2362B41CE3178A00F083BB /* SDWebImage */,
+				DF2363131CE5652700F083BB /* JSONDataService.h */,
+				DF2363141CE5652700F083BB /* JSONDataService.m */,
 			);
 			name = "工具类";
 			sourceTree = "<group>";
@@ -813,6 +820,9 @@
 		DFAC78501CE1B25F001DC46D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF2362931CE2D33500F083BB /* news_list.json */,
+				DF2363161CE56D1D00F083BB /* News.h */,
+				DF2363171CE56D1D00F083BB /* News.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1493,6 +1503,7 @@
 				DF2362D71CE3178A00F083BB /* NSData+ImageContentType.m in Sources */,
 				DFAC78681CE1B364001DC46D /* MovieViewController.m in Sources */,
 				DF2362DA1CE3178A00F083BB /* SDWebImageDecoder.m in Sources */,
+				DF2363151CE5652700F083BB /* JSONDataService.m in Sources */,
 				DFAC78621CE1B2FE001DC46D /* CinemaViewController.m in Sources */,
 				DF2362E31CE3178A00F083BB /* UIImageView+HighlightedWebCache.m in Sources */,
 				DFDBD6F01CE1DFF70098F778 /* BaseNavigationController.m in Sources */,
@@ -1511,6 +1522,7 @@
 				DF2362DD1CE3178A00F083BB /* SDWebImageManager.m in Sources */,
 				DFAC786B1CE1B3B4001DC46D /* NewsViewController.m in Sources */,
 				DFDBD55C1CE1CDBD0098F778 /* MainTabBarButton.m in Sources */,
+				DF2363181CE56D1D00F083BB /* News.m in Sources */,
 				DF2362E81CE322C000F083BB /* RatingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
