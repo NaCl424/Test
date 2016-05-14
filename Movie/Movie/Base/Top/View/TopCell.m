@@ -7,7 +7,7 @@
 //
 
 #import "TopCell.h"
-#import "UIImageView+WebCache.h"
+//#import "UIImageView+WebCache.h"
 
 @implementation TopCell
 

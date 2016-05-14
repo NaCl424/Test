@@ -31,7 +31,6 @@
     //设置表视图初始偏移
     _listView.contentInset = UIEdgeInsetsMake(64, 0, 0, 0);
     
-    
     [_listView registerNib:[UINib nibWithNibName:@"MovieCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"MovieCell"];
     
 }

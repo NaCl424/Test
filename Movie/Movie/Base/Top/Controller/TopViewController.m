@@ -7,11 +7,11 @@
 //
 
 #import "TopViewController.h"
-#import "JSONDataService.h"
+//#import "JSONDataService.h"
 #import "TopModel.h"
 #import "TopCell.h"
 
-@interface TopViewController () <UICollectionViewDataSource,UICollectionViewDelegate>
+@interface TopViewController () <UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 {
     NSMutableArray *_dataArr;
 }

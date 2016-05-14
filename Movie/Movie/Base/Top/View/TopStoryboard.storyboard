@@ -22,7 +22,7 @@
             </objects>
             <point key="canvasLocation" x="-613" y="-88"/>
         </scene>
-        <!--Top View Controller-->
+        <!--Top250-->
         <scene sceneID="AoU-5y-8Cg">
             <objects>
                 <viewController id="h5t-Dj-X3f" customClass="TopViewController" sceneMemberID="viewController">
@@ -69,7 +69,7 @@
                             <constraint firstItem="PNA-2c-Fq9" firstAttribute="top" secondItem="Jat-y1-ubZ" secondAttribute="topMargin" id="XaB-ze-jQs"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="OIk-SY-S2L"/>
+                    <navigationItem key="navigationItem" title="Top250" id="OIk-SY-S2L"/>
                     <connections>
                         <outlet property="topCollectionView" destination="PNA-2c-Fq9" id="3pW-Q6-WvV"/>
                     </connections>

@@ -7,11 +7,14 @@
 //
 
 #import "NewsViewController.h"
-#import "JSONDataService.h"
+//#import "JSONDataService.h"
 #import "News.h"
-#import "UIImageView+WebCache.h"
+//#import "UIImageView+WebCache.h"
 #import "NewsCell.h"
-#import "UIViewExt.h"
+//#import "UIViewExt.h"
+#import "ImageListViewController.h"
+#import "WebNewsViewController.h"
+
 
 @interface NewsViewController () <UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate>
 {
@@ -98,6 +101,36 @@
         //顶部贴合导航栏
         topImage.top = yOffset + 64;
     }
+}
+
+#pragma mark 添加点击事件
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    News *n = _newsArr[indexPath.row];
+    switch (n.type) {
+        case NewsTypeNone:
+        {
+            UIViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"WebNewsViewController"];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case NewsTypeImage:
+        {
+            ImageListViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ImageListViewController"];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case NewsTypeVedio:
+        {
+            NSLog(@"视频新闻");
+            break;
+        }
+        default:
+            break;
+    }
+
+    
+    
 }
 
 

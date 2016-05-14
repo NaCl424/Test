@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="-411" y="302"/>
         </scene>
-        <!--Cinema View Controller-->
+        <!--影院-->
         <scene sceneID="g1E-1A-Ejh">
             <objects>
                 <viewController id="lIi-kH-rfd" customClass="CinemaViewController" sceneMemberID="viewController">
@@ -34,7 +34,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="BBG-gW-2FF"/>
+                    <navigationItem key="navigationItem" title="影院" id="BBG-gW-2FF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7bh-7t-xwA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -52,6 +52,8 @@
 		DF2363441CE5C9D400F083BB /* TopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2363431CE5C9D400F083BB /* TopModel.m */; };
 		DF2363481CE5D18F00F083BB /* TopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2363461CE5D18F00F083BB /* TopCell.m */; };
 		DF2363491CE5D18F00F083BB /* TopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2363471CE5D18F00F083BB /* TopCell.xib */; };
+		DF23634C1CE6C67000F083BB /* ImageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF23634B1CE6C67000F083BB /* ImageListViewController.m */; };
+		DF23634F1CE6C68800F083BB /* WebNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF23634E1CE6C68800F083BB /* WebNewsViewController.m */; };
 		DFAC782C1CE1B1CB001DC46D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC782B1CE1B1CB001DC46D /* main.m */; };
 		DFAC782F1CE1B1CB001DC46D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC782E1CE1B1CB001DC46D /* AppDelegate.m */; };
 		DFAC78371CE1B1CB001DC46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAC78361CE1B1CB001DC46D /* Assets.xcassets */; };
@@ -271,7 +273,7 @@
 		DF2362891CE2D33500F083BB /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_list.json; sourceTree = "<group>"; };
 		DF23628A1CE2D33500F083BB /* detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = detail.json; sourceTree = "<group>"; };
 		DF23628B1CE2D33500F083BB /* district_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = district_list.json; sourceTree = "<group>"; };
-		DF23628C1CE2D33500F083BB /* image_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = image_list.json; sourceTree = "<group>"; };
+		DF23628C1CE2D33500F083BB /* image_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = image_list.json; path = "../../../数据/image_list.json"; sourceTree = "<group>"; };
 		DF23628D1CE2D33500F083BB /* movie_comment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_comment.json; sourceTree = "<group>"; };
 		DF23628E1CE2D33500F083BB /* movie_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_detail.json; sourceTree = "<group>"; };
 		DF23628F1CE2D33500F083BB /* new_movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = new_movie.json; sourceTree = "<group>"; };
@@ -337,6 +339,11 @@
 		DF2363451CE5D18F00F083BB /* TopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCell.h; sourceTree = "<group>"; };
 		DF2363461CE5D18F00F083BB /* TopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCell.m; sourceTree = "<group>"; };
 		DF2363471CE5D18F00F083BB /* TopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopCell.xib; sourceTree = "<group>"; };
+		DF23634A1CE6C67000F083BB /* ImageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageListViewController.h; sourceTree = "<group>"; };
+		DF23634B1CE6C67000F083BB /* ImageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageListViewController.m; sourceTree = "<group>"; };
+		DF23634D1CE6C68800F083BB /* WebNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebNewsViewController.h; sourceTree = "<group>"; };
+		DF23634E1CE6C68800F083BB /* WebNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebNewsViewController.m; sourceTree = "<group>"; };
+		DF2363501CE6F05A00F083BB /* Movie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.pch; sourceTree = "<group>"; };
 		DFAC78271CE1B1CB001DC46D /* Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAC782B1CE1B1CB001DC46D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFAC782D1CE1B1CB001DC46D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -580,7 +587,6 @@
 				DF2362891CE2D33500F083BB /* cinema_list.json */,
 				DF23628A1CE2D33500F083BB /* detail.json */,
 				DF23628B1CE2D33500F083BB /* district_list.json */,
-				DF23628C1CE2D33500F083BB /* image_list.json */,
 				DF23628D1CE2D33500F083BB /* movie_comment.json */,
 				DF23628E1CE2D33500F083BB /* movie_detail.json */,
 				DF23628F1CE2D33500F083BB /* new_movie.json */,
@@ -672,6 +678,7 @@
 				DFAC78361CE1B1CB001DC46D /* Assets.xcassets */,
 				DFAC78381CE1B1CB001DC46D /* LaunchScreen.storyboard */,
 				DFAC783B1CE1B1CB001DC46D /* Info.plist */,
+				DF2363501CE6F05A00F083BB /* Movie.pch */,
 				DFAC782A1CE1B1CB001DC46D /* Supporting Files */,
 			);
 			path = Movie;
@@ -823,6 +830,10 @@
 			children = (
 				DFAC78691CE1B3B4001DC46D /* NewsViewController.h */,
 				DFAC786A1CE1B3B4001DC46D /* NewsViewController.m */,
+				DF23634A1CE6C67000F083BB /* ImageListViewController.h */,
+				DF23634B1CE6C67000F083BB /* ImageListViewController.m */,
+				DF23634D1CE6C68800F083BB /* WebNewsViewController.h */,
+				DF23634E1CE6C68800F083BB /* WebNewsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -831,6 +842,7 @@
 			isa = PBXGroup;
 			children = (
 				DF2362931CE2D33500F083BB /* news_list.json */,
+				DF23628C1CE2D33500F083BB /* image_list.json */,
 				DF2363161CE56D1D00F083BB /* News.h */,
 				DF2363171CE56D1D00F083BB /* News.m */,
 			);
@@ -1517,9 +1529,11 @@
 				DF2362B11CE3048000F083BB /* MovieCell.m in Sources */,
 				DF2362DF1CE3178A00F083BB /* UIButton+WebCache.m in Sources */,
 				DF23631E1CE5A32100F083BB /* NewsCell.m in Sources */,
+				DF23634C1CE6C67000F083BB /* ImageListViewController.m in Sources */,
 				DF2362DC1CE3178A00F083BB /* SDWebImageDownloaderOperation.m in Sources */,
 				DFAC78711CE1BB8E001DC46D /* MainTabBarController.m in Sources */,
 				DF2362D81CE3178A00F083BB /* SDImageCache.m in Sources */,
+				DF23634F1CE6C68800F083BB /* WebNewsViewController.m in Sources */,
 				DF2362D71CE3178A00F083BB /* NSData+ImageContentType.m in Sources */,
 				DF2363481CE5D18F00F083BB /* TopCell.m in Sources */,
 				DFAC78681CE1B364001DC46D /* MovieViewController.m in Sources */,
@@ -1649,6 +1663,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/lhn/GitHub/Test/Movie/Movie/Movie.pch;
 				INFOPLIST_FILE = Movie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lhn.Movie;
@@ -1660,6 +1676,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/lhn/GitHub/Test/Movie/Movie/Movie.pch;
 				INFOPLIST_FILE = Movie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lhn.Movie;

@@ -25,8 +25,10 @@
         UIImage *image = [UIImage imageNamed:@"nav_bg_all"];
         [self.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
     }
-    
-
+    //设置导航栏字体颜色
+    [self.navigationBar setTitleTextAttributes:@{
+                                                NSForegroundColorAttributeName:[UIColor whiteColor]
+                                                }];
 }
 //设置状态栏颜色
 - (UIStatusBarStyle)preferredStatusBarStyle {

@@ -1,0 +1,18 @@
+//
+//  Movie.pch
+//  Movie
+//
+//  Created by 林林 on 16/5/14.
+//  Copyright © 2016年 lhn. All rights reserved.
+//
+
+#ifndef Movie_pch
+#define Movie_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "JSONDataService.h"
+#import "UIImageView+WebCache.h"
+#import "UIViewExt.h"
+
+#endif /* Movie_pch */

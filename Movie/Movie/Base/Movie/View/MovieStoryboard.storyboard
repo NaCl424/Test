@@ -22,7 +22,7 @@
             </objects>
             <point key="canvasLocation" x="-194" y="321"/>
         </scene>
-        <!--Movie View Controller-->
+        <!--电影-->
         <scene sceneID="WIz-w4-TNk">
             <objects>
                 <viewController id="2HY-W9-56H" customClass="MovieViewController" sceneMemberID="viewController">
@@ -58,7 +58,7 @@
                             <constraint firstItem="eTD-Jo-TsM" firstAttribute="top" secondItem="0py-Tu-UBt" secondAttribute="bottom" id="vqL-nI-grK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="980-2P-cJL"/>
+                    <navigationItem key="navigationItem" title="电影" id="980-2P-cJL"/>
                     <connections>
                         <outlet property="listView" destination="F42-vT-k53" id="mWQ-TX-TUy"/>
                         <outlet property="postView" destination="0py-Tu-UBt" id="FtN-rL-lGL"/>

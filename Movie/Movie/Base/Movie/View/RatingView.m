@@ -7,7 +7,7 @@
 //
 
 #import "RatingView.h"
-#import "UIViewExt.h"
+//#import "UIViewExt.h"
 
 @interface RatingView ()
 {
