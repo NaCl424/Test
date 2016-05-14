@@ -48,6 +48,10 @@
 		DF2362EB1CE3247A00F083BB /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2362EA1CE3247A00F083BB /* UIViewExt.m */; };
 		DF2363151CE5652700F083BB /* JSONDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2363141CE5652700F083BB /* JSONDataService.m */; };
 		DF2363181CE56D1D00F083BB /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2363171CE56D1D00F083BB /* News.m */; };
+		DF23631E1CE5A32100F083BB /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF23631D1CE5A32100F083BB /* NewsCell.m */; };
+		DF2363441CE5C9D400F083BB /* TopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2363431CE5C9D400F083BB /* TopModel.m */; };
+		DF2363481CE5D18F00F083BB /* TopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2363461CE5D18F00F083BB /* TopCell.m */; };
+		DF2363491CE5D18F00F083BB /* TopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2363471CE5D18F00F083BB /* TopCell.xib */; };
 		DFAC782C1CE1B1CB001DC46D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC782B1CE1B1CB001DC46D /* main.m */; };
 		DFAC782F1CE1B1CB001DC46D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC782E1CE1B1CB001DC46D /* AppDelegate.m */; };
 		DFAC78371CE1B1CB001DC46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAC78361CE1B1CB001DC46D /* Assets.xcassets */; };
@@ -277,7 +281,7 @@
 		DF2362931CE2D33500F083BB /* news_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = news_list.json; path = "../../../数据/news_list.json"; sourceTree = "<group>"; };
 		DF2362941CE2D33500F083BB /* readyMovie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = readyMovie.json; sourceTree = "<group>"; };
 		DF2362951CE2D33500F083BB /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
-		DF2362961CE2D33500F083BB /* top250.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top250.json; sourceTree = "<group>"; };
+		DF2362961CE2D33500F083BB /* top250.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = top250.json; path = "../../../数据/top250.json"; sourceTree = "<group>"; };
 		DF2362971CE2D33500F083BB /* us_box.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = us_box.json; path = "../../../数据/us_box.json"; sourceTree = "<group>"; };
 		DF2362981CE2D33500F083BB /* 豆瓣api.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "豆瓣api.rtf"; sourceTree = "<group>"; };
 		DF2362AB1CE2EF5400F083BB /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
@@ -326,6 +330,13 @@
 		DF2363141CE5652700F083BB /* JSONDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDataService.m; sourceTree = "<group>"; };
 		DF2363161CE56D1D00F083BB /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		DF2363171CE56D1D00F083BB /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		DF23631C1CE5A32100F083BB /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		DF23631D1CE5A32100F083BB /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		DF2363421CE5C9D400F083BB /* TopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopModel.h; sourceTree = "<group>"; };
+		DF2363431CE5C9D400F083BB /* TopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopModel.m; sourceTree = "<group>"; };
+		DF2363451CE5D18F00F083BB /* TopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCell.h; sourceTree = "<group>"; };
+		DF2363461CE5D18F00F083BB /* TopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCell.m; sourceTree = "<group>"; };
+		DF2363471CE5D18F00F083BB /* TopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopCell.xib; sourceTree = "<group>"; };
 		DFAC78271CE1B1CB001DC46D /* Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAC782B1CE1B1CB001DC46D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFAC782D1CE1B1CB001DC46D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -578,7 +589,6 @@
 				DF2362921CE2D33500F083BB /* news_detail_images.json */,
 				DF2362941CE2D33500F083BB /* readyMovie.json */,
 				DF2362951CE2D33500F083BB /* search.json */,
-				DF2362961CE2D33500F083BB /* top250.json */,
 				DF2362981CE2D33500F083BB /* 豆瓣api.rtf */,
 			);
 			path = "数据";
@@ -831,6 +841,8 @@
 			isa = PBXGroup;
 			children = (
 				DFAC785C1CE1B29D001DC46D /* NewsStoryboard.storyboard */,
+				DF23631C1CE5A32100F083BB /* NewsCell.h */,
+				DF23631D1CE5A32100F083BB /* NewsCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -857,6 +869,9 @@
 		DFAC78541CE1B25F001DC46D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF2362961CE2D33500F083BB /* top250.json */,
+				DF2363421CE5C9D400F083BB /* TopModel.h */,
+				DF2363431CE5C9D400F083BB /* TopModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -865,6 +880,9 @@
 			isa = PBXGroup;
 			children = (
 				DFAC785E1CE1B2A8001DC46D /* TopStoryboard.storyboard */,
+				DF2363451CE5D18F00F083BB /* TopCell.h */,
+				DF2363461CE5D18F00F083BB /* TopCell.m */,
+				DF2363471CE5D18F00F083BB /* TopCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1350,6 +1368,7 @@
 				DFDBD6C31CE1D1BC0098F778 /* more_set_on@2x.png in Resources */,
 				DFDBD6D41CE1D1BC0098F778 /* xk_on@2x.png in Resources */,
 				DFDBD6AC1CE1D1BC0098F778 /* selectImage.png in Resources */,
+				DF2363491CE5D18F00F083BB /* TopCell.xib in Resources */,
 				DFAC785D1CE1B29D001DC46D /* NewsStoryboard.storyboard in Resources */,
 				DFDBD6DD1CE1D1BC0098F778 /* indexBG_home.png in Resources */,
 				DFDBD6AA1CE1D1BC0098F778 /* sctpxw.png in Resources */,
@@ -1497,10 +1516,12 @@
 				DF2362E21CE3178A00F083BB /* UIImage+WebP.m in Sources */,
 				DF2362B11CE3048000F083BB /* MovieCell.m in Sources */,
 				DF2362DF1CE3178A00F083BB /* UIButton+WebCache.m in Sources */,
+				DF23631E1CE5A32100F083BB /* NewsCell.m in Sources */,
 				DF2362DC1CE3178A00F083BB /* SDWebImageDownloaderOperation.m in Sources */,
 				DFAC78711CE1BB8E001DC46D /* MainTabBarController.m in Sources */,
 				DF2362D81CE3178A00F083BB /* SDImageCache.m in Sources */,
 				DF2362D71CE3178A00F083BB /* NSData+ImageContentType.m in Sources */,
+				DF2363481CE5D18F00F083BB /* TopCell.m in Sources */,
 				DFAC78681CE1B364001DC46D /* MovieViewController.m in Sources */,
 				DF2362DA1CE3178A00F083BB /* SDWebImageDecoder.m in Sources */,
 				DF2363151CE5652700F083BB /* JSONDataService.m in Sources */,
@@ -1520,6 +1541,7 @@
 				DF2362E41CE3178A00F083BB /* UIImageView+WebCache.m in Sources */,
 				DF2362E51CE3178A00F083BB /* UIView+WebCacheOperation.m in Sources */,
 				DF2362DD1CE3178A00F083BB /* SDWebImageManager.m in Sources */,
+				DF2363441CE5C9D400F083BB /* TopModel.m in Sources */,
 				DFAC786B1CE1B3B4001DC46D /* NewsViewController.m in Sources */,
 				DFDBD55C1CE1CDBD0098F778 /* MainTabBarButton.m in Sources */,
 				DF2363181CE56D1D00F083BB /* News.m in Sources */,

@@ -7,8 +7,16 @@
 //
 
 #import "TopViewController.h"
+#import "JSONDataService.h"
+#import "TopModel.h"
+#import "TopCell.h"
 
-@interface TopViewController ()
+@interface TopViewController () <UICollectionViewDataSource,UICollectionViewDelegate>
+{
+    NSMutableArray *_dataArr;
+}
+@property (weak, nonatomic) IBOutlet UICollectionView *topCollectionView;
+
 
 @end
 
@@ -16,8 +24,40 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    //加载数据
+    [self loadJsonFile];
+    //注册
+    [_topCollectionView registerNib:[UINib nibWithNibName:@"TopCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:@"TopCell"];
 }
+
+- (void)loadJsonFile {
+    
+    NSDictionary *data = [JSONDataService loadJsonFileWithName:@"top250"];
+    _dataArr = [[NSMutableArray alloc] init];
+    for (NSDictionary *dic in data[@"subjects"]) {
+        
+        TopModel *topModel = [[TopModel alloc] initWithDictionary:dic];
+        [_dataArr addObject:topModel];
+    }
+    
+}
+
+#pragma mark UICollectionViewDataSource
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    
+    return _dataArr.count;
+}
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    TopCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"TopCell" forIndexPath:indexPath];
+    
+    [cell setTopModel:_dataArr[indexPath.row]];
+    
+    return cell;
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

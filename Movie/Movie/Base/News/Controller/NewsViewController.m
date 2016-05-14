@@ -10,11 +10,14 @@
 #import "JSONDataService.h"
 #import "News.h"
 #import "UIImageView+WebCache.h"
+#import "NewsCell.h"
+#import "UIViewExt.h"
 
-@interface NewsViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface NewsViewController () <UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate>
 {
     NSMutableArray *_newsArr;
 }
+@property (weak, nonatomic) IBOutlet UITableView *tbView;
 
 @end
 
@@ -24,8 +27,8 @@
     [super viewDidLoad];
     //加载数据
     [self loadJsonFile];
-
     
+        
 }
 
 - (void)loadJsonFile {
@@ -59,9 +62,12 @@
         //填充数据
         [topImageView sd_setImageWithURL:[NSURL URLWithString:n.image]];
         topLabel.text = n.title;
-        
     }else {
+        //剩下的cell
         cell = [tableView dequeueReusableCellWithIdentifier:@"NewsCell"];
+        NewsCell *newsCell = (NewsCell *)cell;
+        News *n = _newsArr[indexPath.row];
+        [newsCell setNews:n];
     }
     
     
@@ -74,7 +80,25 @@
     }
     return 80;
 }
-
+#pragma mark 下拉放大
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+    //获取偏移量
+    CGFloat yOffset = _tbView.contentOffset.y;
+    //获取视图
+    UITableViewCell *cell = [_tbView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+    UIImageView *topImage = (UIImageView *)[cell.contentView viewWithTag:100];
+    if (yOffset < -64) {
+        //实现放大
+        CGFloat scale = (180 + (-64 - yOffset)) / 180;
+        topImage.transform = CGAffineTransformMakeScale(scale, scale);
+        //消除裁剪
+        cell.clipsToBounds = NO;
+        cell.contentView.clipsToBounds = NO;
+        //顶部贴合导航栏
+        topImage.top = yOffset + 64;
+    }
+}
 
 
 - (void)didReceiveMemoryWarning {
