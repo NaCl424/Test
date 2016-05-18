@@ -18,15 +18,44 @@
     }
     _movie = movie;
     [_moviePostImage sd_setImageWithURL:[NSURL URLWithString:movie.images[@"large"]]];
-    _postDetail.hidden = YES;
+
 }
 
+- (void)flipView {
+    
+    [UIView transitionWithView:self
+                      duration:0.4
+                       options:UIViewAnimationOptionTransitionFlipFromLeft
+                    animations:^{
+                        
+                        [self.contentView exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
+                    }
+                    completion:nil];
+    
+    
+}
+
+- (void)restore {
+    
+    NSArray *subViews = [self.contentView subviews];
+    if ([[subViews firstObject] isKindOfClass:[UIImageView class]]) {
+        
+        [self.contentView exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
+    }
+    
+}
 
 - (void)awakeFromNib {
     [super awakeFromNib];
 
-   
 }
 
 
 @end
+
+
+
+
+
+
+

@@ -79,6 +79,9 @@
 		DFAC786B1CE1B3B4001DC46D /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC786A1CE1B3B4001DC46D /* NewsViewController.m */; };
 		DFAC786E1CE1B3F2001DC46D /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC786D1CE1B3F2001DC46D /* TopViewController.m */; };
 		DFAC78711CE1BB8E001DC46D /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC78701CE1BB8E001DC46D /* MainTabBarController.m */; };
+		DFD119851CEC123B00D8C17E /* SmallPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD119811CEC123B00D8C17E /* SmallPostCell.m */; };
+		DFD119861CEC123B00D8C17E /* SmallPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD119821CEC123B00D8C17E /* SmallPostCell.xib */; };
+		DFD119871CEC123B00D8C17E /* SmallPostCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD119841CEC123B00D8C17E /* SmallPostCollectionView.m */; };
 		DFDBD55C1CE1CDBD0098F778 /* MainTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDBD55B1CE1CDBD0098F778 /* MainTabBarButton.m */; };
 		DFDBD62C1CE1D1BC0098F778 /* duration_tip.png in Resources */ = {isa = PBXBuildFile; fileRef = DFDBD5601CE1D1BB0098F778 /* duration_tip.png */; };
 		DFDBD62D1CE1D1BC0098F778 /* duration_tip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFDBD5611CE1D1BB0098F778 /* duration_tip@2x.png */; };
@@ -397,6 +400,11 @@
 		DFAC786D1CE1B3F2001DC46D /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		DFAC786F1CE1BB8E001DC46D /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTabBarController.h; path = ../MainTabBarController.h; sourceTree = "<group>"; };
 		DFAC78701CE1BB8E001DC46D /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTabBarController.m; path = ../MainTabBarController.m; sourceTree = "<group>"; };
+		DFD119801CEC123B00D8C17E /* SmallPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallPostCell.h; sourceTree = "<group>"; };
+		DFD119811CEC123B00D8C17E /* SmallPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallPostCell.m; sourceTree = "<group>"; };
+		DFD119821CEC123B00D8C17E /* SmallPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallPostCell.xib; sourceTree = "<group>"; };
+		DFD119831CEC123B00D8C17E /* SmallPostCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallPostCollectionView.h; sourceTree = "<group>"; };
+		DFD119841CEC123B00D8C17E /* SmallPostCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallPostCollectionView.m; sourceTree = "<group>"; };
 		DFDBD55A1CE1CDBD0098F778 /* MainTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarButton.h; sourceTree = "<group>"; };
 		DFDBD55B1CE1CDBD0098F778 /* MainTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarButton.m; sourceTree = "<group>"; };
 		DFDBD5601CE1D1BB0098F778 /* duration_tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration_tip.png; sourceTree = "<group>"; };
@@ -859,6 +867,11 @@
 				DF15618A1CEB1445003801B1 /* MoviePostCollectionCell.h */,
 				DF15618B1CEB1445003801B1 /* MoviePostCollectionCell.m */,
 				DF15618C1CEB1445003801B1 /* MoviePostCollectionCell.xib */,
+				DFD119801CEC123B00D8C17E /* SmallPostCell.h */,
+				DFD119811CEC123B00D8C17E /* SmallPostCell.m */,
+				DFD119821CEC123B00D8C17E /* SmallPostCell.xib */,
+				DFD119831CEC123B00D8C17E /* SmallPostCollectionView.h */,
+				DFD119841CEC123B00D8C17E /* SmallPostCollectionView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1550,6 +1563,7 @@
 				DF23629D1CE2D33500F083BB /* district_list.json in Resources */,
 				DFDBD67F1CE1D1BC0098F778 /* Icon-60@2x.png in Resources */,
 				DFDBD6BE1CE1D1BC0098F778 /* more_select_setting.png in Resources */,
+				DFD119861CEC123B00D8C17E /* SmallPostCell.xib in Resources */,
 				DFDBD6481CE1D1BC0098F778 /* bg_main@2x.png in Resources */,
 				DFDBD6401CE1D1BC0098F778 /* zoomin.png in Resources */,
 				DFDBD6C41CE1D1BC0098F778 /* more_setting.png in Resources */,
@@ -1623,6 +1637,8 @@
 				DF2362DD1CE3178A00F083BB /* SDWebImageManager.m in Sources */,
 				DF2363441CE5C9D400F083BB /* TopModel.m in Sources */,
 				DFAC786B1CE1B3B4001DC46D /* NewsViewController.m in Sources */,
+				DFD119871CEC123B00D8C17E /* SmallPostCollectionView.m in Sources */,
+				DFD119851CEC123B00D8C17E /* SmallPostCell.m in Sources */,
 				DF2363C61CE9C74200F083BB /* HNImageViewController.m in Sources */,
 				DFDBD55C1CE1CDBD0098F778 /* MainTabBarButton.m in Sources */,
 				DF2363181CE56D1D00F083BB /* News.m in Sources */,

@@ -15,4 +15,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *moviePostImage;
 @property (strong, nonatomic) Movie *movie;
 
+- (void)flipView;
+//恢复
+- (void)restore;
 @end

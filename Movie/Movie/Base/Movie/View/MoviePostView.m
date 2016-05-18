@@ -8,6 +8,7 @@
 
 #import "MoviePostView.h"
 #import "MoviePostCollectionView.h"
+#import "SmallPostCollectionView.h"
 
 @interface MoviePostView ()
 {
@@ -91,6 +92,7 @@
     
     [self creatCollectionView];
     
+    [self creatTopCollectionView];
 }
 //创建ocollectionView
 - (void)creatCollectionView {
@@ -99,6 +101,15 @@
     [self insertSubview:MoviePostCollection atIndex:0];
     
 }
+
+//创建上面的collectionView
+- (void)creatTopCollectionView {
+    
+    SmallPostCollectionView *SmallPostCollection = [[SmallPostCollectionView alloc] initWithFrame:CGRectMake(0, 10, KScreenWidth, 70)];
+    [_headerView insertSubview:SmallPostCollection atIndex:1];
+    
+}
+
 
 - (void)headerViewMoveAction:(UIButton *)button {
     

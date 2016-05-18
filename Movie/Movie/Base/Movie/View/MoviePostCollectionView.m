@@ -95,6 +95,35 @@
     
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    //获取点击的单元格编号
+    CGFloat xOffset = collectionView.contentOffset.x;
+    CGFloat width = (self.frame.size.height - 84) / 1.7 + 20;
+    CGFloat floatIndex = xOffset / width;
+    NSInteger integerIndex = floatIndex + 0.5;
+    //进行判断是中间单元格还是两边的
+    if (integerIndex == indexPath.item) {
+        //获取单元格
+        MoviePostCollectionCell *cell = (MoviePostCollectionCell *)[collectionView cellForItemAtIndexPath:indexPath];
+        //翻转
+        [cell flipView];
+        
+    }else {
+        //点击两边单元格，移到中间
+        [collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+    }
+    
+    
+}
+
+//恢复视图层次
+- (void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    MoviePostCollectionCell *reCell = (MoviePostCollectionCell *)cell;
+    [reCell restore];
+    
+}
 
 @end
 
