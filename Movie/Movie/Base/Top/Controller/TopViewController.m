@@ -10,6 +10,7 @@
 //#import "JSONDataService.h"
 #import "TopModel.h"
 #import "TopCell.h"
+#import "MovieDeatilViewController.h"
 
 @interface TopViewController () <UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 {
@@ -57,7 +58,13 @@
     return cell;
 }
 
-
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    MovieDeatilViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"MovieDetailView"];
+    vc.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

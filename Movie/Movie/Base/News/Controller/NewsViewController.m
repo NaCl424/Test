@@ -7,11 +7,8 @@
 //
 
 #import "NewsViewController.h"
-//#import "JSONDataService.h"
 #import "News.h"
-//#import "UIImageView+WebCache.h"
 #import "NewsCell.h"
-//#import "UIViewExt.h"
 #import "ImageListViewController.h"
 #import "WebNewsViewController.h"
 
@@ -111,12 +108,15 @@
         case NewsTypeNone:
         {
             UIViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"WebNewsViewController"];
+            //隐藏底部标签栏
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
         case NewsTypeImage:
         {
             ImageListViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ImageListViewController"];
+            vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }

@@ -7,8 +7,7 @@
 //
 
 #import "ImageListViewController.h"
-#import "JSONDataService.h"
-//#import "UIImageView+WebCache.h"
+#import "HNImageViewController.h"
 
 @interface ImageListViewController () <UICollectionViewDelegateFlowLayout, UICollectionViewDataSource>
 {
@@ -47,7 +46,10 @@
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"NewsImageCell" forIndexPath:indexPath];
     UIImageView *imageView = (UIImageView *)[cell viewWithTag:12345];
     [imageView sd_setImageWithURL:_dataArr[indexPath.item]];
-    
+    //设置图片边框
+    cell.layer.borderColor = [[UIColor grayColor] CGColor];
+    cell.layer.borderWidth = 1;
+    cell.layer.cornerRadius = 3;
     
     return cell;
 }
@@ -58,6 +60,15 @@
     CGSize size = CGSizeMake(kwidth - 0.1, kwidth - 0.1);
     
     return size;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    HNImageViewController *imageVC = [[HNImageViewController alloc] init];
+    imageVC.urls = _dataArr;
+    imageVC.indexPath = indexPath;
+    [self.navigationController pushViewController:imageVC animated:YES];
+    
 }
 
 

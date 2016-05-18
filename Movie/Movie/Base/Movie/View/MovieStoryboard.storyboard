@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Base Navigation Controller-->
@@ -34,13 +33,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0py-Tu-UBt" userLabel="postView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0py-Tu-UBt" userLabel="postView" customClass="MoviePostView">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="F42-vT-k53" userLabel="listView">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="2HY-W9-56H" id="QYu-l2-RpO"/>
                                     <outlet property="delegate" destination="2HY-W9-56H" id="mtW-gN-avA"/>
@@ -48,14 +47,14 @@
                             </tableView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="0py-Tu-UBt" firstAttribute="leading" secondItem="eI8-he-p4A" secondAttribute="leadingMargin" constant="-20" id="82W-Rs-MAo"/>
-                            <constraint firstItem="eTD-Jo-TsM" firstAttribute="top" secondItem="F42-vT-k53" secondAttribute="bottom" id="9tR-Cp-IzO"/>
-                            <constraint firstItem="0py-Tu-UBt" firstAttribute="top" secondItem="jTp-Js-mnq" secondAttribute="bottom" id="Qfc-ak-N2O"/>
-                            <constraint firstItem="F42-vT-k53" firstAttribute="leading" secondItem="eI8-he-p4A" secondAttribute="leadingMargin" constant="-20" id="T2e-KI-gc7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="F42-vT-k53" secondAttribute="trailing" constant="-20" id="hHf-iS-r5s"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0py-Tu-UBt" secondAttribute="trailing" constant="-20" id="ovV-8T-Mdb"/>
-                            <constraint firstItem="F42-vT-k53" firstAttribute="top" secondItem="eI8-he-p4A" secondAttribute="topMargin" id="piS-X2-5P0"/>
-                            <constraint firstItem="eTD-Jo-TsM" firstAttribute="top" secondItem="0py-Tu-UBt" secondAttribute="bottom" id="vqL-nI-grK"/>
+                            <constraint firstItem="0py-Tu-UBt" firstAttribute="bottom" secondItem="eTD-Jo-TsM" secondAttribute="top" id="1mm-BU-q3o"/>
+                            <constraint firstItem="F42-vT-k53" firstAttribute="bottom" secondItem="eTD-Jo-TsM" secondAttribute="top" id="MnA-tu-urw"/>
+                            <constraint firstAttribute="trailing" secondItem="F42-vT-k53" secondAttribute="trailing" id="PbK-DA-IVj"/>
+                            <constraint firstItem="F42-vT-k53" firstAttribute="trailing" secondItem="0py-Tu-UBt" secondAttribute="trailing" id="bOo-B4-RNC"/>
+                            <constraint firstItem="F42-vT-k53" firstAttribute="leading" secondItem="0py-Tu-UBt" secondAttribute="leading" id="bbv-m9-Okf"/>
+                            <constraint firstItem="F42-vT-k53" firstAttribute="leading" secondItem="eI8-he-p4A" secondAttribute="leading" id="dsl-2g-7XA"/>
+                            <constraint firstItem="0py-Tu-UBt" firstAttribute="top" secondItem="jTp-Js-mnq" secondAttribute="bottom" id="gzX-Sa-jZ0"/>
+                            <constraint firstItem="F42-vT-k53" firstAttribute="top" secondItem="eI8-he-p4A" secondAttribute="top" id="p47-bK-7b5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="电影" id="980-2P-cJL"/>

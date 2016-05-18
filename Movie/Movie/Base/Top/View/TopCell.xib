@@ -16,10 +16,18 @@
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UwW-dB-0T8">
                         <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="dmx-bA-ZyQ"/>
+                            <constraint firstAttribute="height" constant="110" id="hRm-DE-czX"/>
+                        </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOc-Re-Q7l">
                         <rect key="frame" x="0.0" y="85" width="100" height="24"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.45573796452702703" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="4d2-1J-ZgA"/>
+                            <constraint firstAttribute="width" constant="100" id="pJx-eZ-HUJ"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -27,8 +35,8 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTC-39-ri8">
                         <rect key="frame" x="68" y="109" width="32" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="32" id="1s5-IP-Jca"/>
-                            <constraint firstAttribute="height" constant="21" id="UeO-Cb-Jzj"/>
+                            <constraint firstAttribute="height" constant="21" id="BTK-wa-64M"/>
+                            <constraint firstAttribute="width" constant="32" id="Y2F-ma-Cr3"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -37,25 +45,23 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h9s-VW-47r" customClass="RatingView">
                         <rect key="frame" x="0.0" y="109" width="70" height="16"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="M15-Sd-ZFx"/>
+                            <constraint firstAttribute="width" constant="70" id="uRV-Ln-BL5"/>
+                        </constraints>
                     </view>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <constraints>
-                <constraint firstItem="h9s-VW-47r" firstAttribute="top" secondItem="mOc-Re-Q7l" secondAttribute="bottom" id="0vh-7S-NI5"/>
-                <constraint firstAttribute="trailing" secondItem="h9s-VW-47r" secondAttribute="trailing" constant="30" id="3Nm-h8-n7B"/>
-                <constraint firstAttribute="bottom" secondItem="mOc-Re-Q7l" secondAttribute="bottom" constant="21" id="EGZ-cn-rAU"/>
-                <constraint firstAttribute="trailing" secondItem="RTC-39-ri8" secondAttribute="trailing" id="Ey1-OJ-81Z"/>
-                <constraint firstItem="mOc-Re-Q7l" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="I5b-VF-gyr"/>
-                <constraint firstAttribute="trailing" secondItem="UwW-dB-0T8" secondAttribute="trailing" id="My4-Rw-2Mv"/>
-                <constraint firstAttribute="trailing" secondItem="mOc-Re-Q7l" secondAttribute="trailing" id="PKM-1h-2za"/>
-                <constraint firstAttribute="bottom" secondItem="UwW-dB-0T8" secondAttribute="bottom" constant="20" id="RfY-af-uUx"/>
-                <constraint firstItem="h9s-VW-47r" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Rit-0o-srj"/>
-                <constraint firstAttribute="bottom" secondItem="h9s-VW-47r" secondAttribute="bottom" constant="5" id="Tsd-Ey-Qay"/>
-                <constraint firstItem="mOc-Re-Q7l" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="85" id="Wx2-nm-uXU"/>
-                <constraint firstItem="UwW-dB-0T8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XYu-LN-1iD"/>
-                <constraint firstItem="UwW-dB-0T8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rkt-Ei-lhA"/>
-                <constraint firstItem="RTC-39-ri8" firstAttribute="top" secondItem="h9s-VW-47r" secondAttribute="top" id="rnu-L4-Rey"/>
+                <constraint firstItem="h9s-VW-47r" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GVa-Cx-ruA"/>
+                <constraint firstItem="h9s-VW-47r" firstAttribute="top" secondItem="mOc-Re-Q7l" secondAttribute="bottom" id="Hdf-Zn-E74"/>
+                <constraint firstItem="mOc-Re-Q7l" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="IB4-zK-9Kv"/>
+                <constraint firstItem="UwW-dB-0T8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZGL-Z8-MRB"/>
+                <constraint firstItem="RTC-39-ri8" firstAttribute="top" secondItem="mOc-Re-Q7l" secondAttribute="bottom" id="aua-kk-kbT"/>
+                <constraint firstItem="mOc-Re-Q7l" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="85" id="bX7-jp-wlI"/>
+                <constraint firstItem="UwW-dB-0T8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cyZ-ZV-DEM"/>
+                <constraint firstAttribute="trailing" secondItem="RTC-39-ri8" secondAttribute="trailing" id="uZo-ex-Gjf"/>
             </constraints>
             <connections>
                 <outlet property="rating" destination="RTC-39-ri8" id="uZI-jO-aWD"/>

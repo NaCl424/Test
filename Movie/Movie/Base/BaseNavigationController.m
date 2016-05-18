@@ -29,6 +29,8 @@
     [self.navigationBar setTitleTextAttributes:@{
                                                 NSForegroundColorAttributeName:[UIColor whiteColor]
                                                 }];
+    [self.navigationBar setTintColor:[UIColor whiteColor]];
+    
 }
 //设置状态栏颜色
 - (UIStatusBarStyle)preferredStatusBarStyle {
