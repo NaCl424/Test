@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CinemaViewController : UIViewController
+@interface CinemaViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *CinemaTableView;
 
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF1191691CEEE2870084CB8F /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1191671CEEE2860084CB8F /* LaunchViewController.m */; };
+		DF11916A1CEEE2870084CB8F /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF1191681CEEE2860084CB8F /* LaunchViewController.xib */; };
+		DF11916D1CEF02C60084CB8F /* FirstLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF11916C1CEF02C60084CB8F /* FirstLaunchViewController.m */; };
 		DF1561861CEAB0BF003801B1 /* MoviePostView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1561851CEAB0BF003801B1 /* MoviePostView.m */; };
 		DF1561891CEAED69003801B1 /* MoviePostCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1561881CEAED69003801B1 /* MoviePostCollectionView.m */; };
 		DF15618D1CEB1445003801B1 /* MoviePostCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF15618B1CEB1445003801B1 /* MoviePostCollectionCell.m */; };
@@ -20,7 +23,6 @@
 		DF23629F1CE2D33500F083BB /* movie_comment.json in Resources */ = {isa = PBXBuildFile; fileRef = DF23628D1CE2D33500F083BB /* movie_comment.json */; };
 		DF2362A01CE2D33500F083BB /* movie_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = DF23628E1CE2D33500F083BB /* movie_detail.json */; };
 		DF2362A11CE2D33500F083BB /* new_movie.json in Resources */ = {isa = PBXBuildFile; fileRef = DF23628F1CE2D33500F083BB /* new_movie.json */; };
-		DF2362A21CE2D33500F083BB /* news.html in Resources */ = {isa = PBXBuildFile; fileRef = DF2362901CE2D33500F083BB /* news.html */; };
 		DF2362A31CE2D33500F083BB /* news_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = DF2362911CE2D33500F083BB /* news_detail.json */; };
 		DF2362A41CE2D33500F083BB /* news_detail_images.json in Resources */ = {isa = PBXBuildFile; fileRef = DF2362921CE2D33500F083BB /* news_detail_images.json */; };
 		DF2362A51CE2D33500F083BB /* news_list.json in Resources */ = {isa = PBXBuildFile; fileRef = DF2362931CE2D33500F083BB /* news_list.json */; };
@@ -82,6 +84,10 @@
 		DFD119851CEC123B00D8C17E /* SmallPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD119811CEC123B00D8C17E /* SmallPostCell.m */; };
 		DFD119861CEC123B00D8C17E /* SmallPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD119821CEC123B00D8C17E /* SmallPostCell.xib */; };
 		DFD119871CEC123B00D8C17E /* SmallPostCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD119841CEC123B00D8C17E /* SmallPostCollectionView.m */; };
+		DFD1198D1CEC6E2000D8C17E /* news.html in Resources */ = {isa = PBXBuildFile; fileRef = DFD1198C1CEC6E2000D8C17E /* news.html */; };
+		DFD119B11CED566B00D8C17E /* CinemaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD119AF1CED566B00D8C17E /* CinemaCell.m */; };
+		DFD119B21CED566B00D8C17E /* CinemaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD119B01CED566B00D8C17E /* CinemaCell.xib */; };
+		DFD119B51CED5DF900D8C17E /* Cinema.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD119B41CED5DF900D8C17E /* Cinema.m */; };
 		DFDBD55C1CE1CDBD0098F778 /* MainTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDBD55B1CE1CDBD0098F778 /* MainTabBarButton.m */; };
 		DFDBD62C1CE1D1BC0098F778 /* duration_tip.png in Resources */ = {isa = PBXBuildFile; fileRef = DFDBD5601CE1D1BB0098F778 /* duration_tip.png */; };
 		DFDBD62D1CE1D1BC0098F778 /* duration_tip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFDBD5611CE1D1BB0098F778 /* duration_tip@2x.png */; };
@@ -281,23 +287,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF1561841CEAB0BF003801B1 /* MoviePostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePostView.h; sourceTree = "<group>"; };
-		DF1561851CEAB0BF003801B1 /* MoviePostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePostView.m; sourceTree = "<group>"; };
-		DF1561871CEAED69003801B1 /* MoviePostCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePostCollectionView.h; sourceTree = "<group>"; };
-		DF1561881CEAED69003801B1 /* MoviePostCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePostCollectionView.m; sourceTree = "<group>"; };
-		DF15618A1CEB1445003801B1 /* MoviePostCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePostCollectionCell.h; sourceTree = "<group>"; };
-		DF15618B1CEB1445003801B1 /* MoviePostCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePostCollectionCell.m; sourceTree = "<group>"; };
-		DF15618C1CEB1445003801B1 /* MoviePostCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoviePostCollectionCell.xib; sourceTree = "<group>"; };
+		DF1191661CEEE2860084CB8F /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		DF1191671CEEE2860084CB8F /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		DF1191681CEEE2860084CB8F /* LaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
+		DF11916B1CEF02C60084CB8F /* FirstLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLaunchViewController.h; sourceTree = "<group>"; };
+		DF11916C1CEF02C60084CB8F /* FirstLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLaunchViewController.m; sourceTree = "<group>"; };
+		DF1561841CEAB0BF003801B1 /* MoviePostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoviePostView.h; path = View/MoviePostView.h; sourceTree = "<group>"; };
+		DF1561851CEAB0BF003801B1 /* MoviePostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoviePostView.m; path = View/MoviePostView.m; sourceTree = "<group>"; };
+		DF1561871CEAED69003801B1 /* MoviePostCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoviePostCollectionView.h; path = View/MoviePostCollectionView.h; sourceTree = "<group>"; };
+		DF1561881CEAED69003801B1 /* MoviePostCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoviePostCollectionView.m; path = View/MoviePostCollectionView.m; sourceTree = "<group>"; };
+		DF15618A1CEB1445003801B1 /* MoviePostCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoviePostCollectionCell.h; path = View/MoviePostCollectionCell.h; sourceTree = "<group>"; };
+		DF15618B1CEB1445003801B1 /* MoviePostCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoviePostCollectionCell.m; path = View/MoviePostCollectionCell.m; sourceTree = "<group>"; };
+		DF15618C1CEB1445003801B1 /* MoviePostCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MoviePostCollectionCell.xib; path = View/MoviePostCollectionCell.xib; sourceTree = "<group>"; };
 		DF2362871CE2D33500F083BB /* actor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = actor.json; sourceTree = "<group>"; };
 		DF2362881CE2D33500F083BB /* cinema_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_detail.json; sourceTree = "<group>"; };
-		DF2362891CE2D33500F083BB /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_list.json; sourceTree = "<group>"; };
+		DF2362891CE2D33500F083BB /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cinema_list.json; path = "../../../数据/cinema_list.json"; sourceTree = "<group>"; };
 		DF23628A1CE2D33500F083BB /* detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = detail.json; sourceTree = "<group>"; };
-		DF23628B1CE2D33500F083BB /* district_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = district_list.json; sourceTree = "<group>"; };
+		DF23628B1CE2D33500F083BB /* district_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = district_list.json; path = "../../../数据/district_list.json"; sourceTree = "<group>"; };
 		DF23628C1CE2D33500F083BB /* image_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = image_list.json; path = "../../../数据/image_list.json"; sourceTree = "<group>"; };
 		DF23628D1CE2D33500F083BB /* movie_comment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = movie_comment.json; path = "../../../数据/movie_comment.json"; sourceTree = "<group>"; };
 		DF23628E1CE2D33500F083BB /* movie_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = movie_detail.json; path = "../../../数据/movie_detail.json"; sourceTree = "<group>"; };
 		DF23628F1CE2D33500F083BB /* new_movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = new_movie.json; sourceTree = "<group>"; };
-		DF2362901CE2D33500F083BB /* news.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = news.html; sourceTree = "<group>"; };
 		DF2362911CE2D33500F083BB /* news_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news_detail.json; sourceTree = "<group>"; };
 		DF2362921CE2D33500F083BB /* news_detail_images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news_detail_images.json; sourceTree = "<group>"; };
 		DF2362931CE2D33500F083BB /* news_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = news_list.json; path = "../../../数据/news_list.json"; sourceTree = "<group>"; };
@@ -400,11 +410,17 @@
 		DFAC786D1CE1B3F2001DC46D /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		DFAC786F1CE1BB8E001DC46D /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTabBarController.h; path = ../MainTabBarController.h; sourceTree = "<group>"; };
 		DFAC78701CE1BB8E001DC46D /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTabBarController.m; path = ../MainTabBarController.m; sourceTree = "<group>"; };
-		DFD119801CEC123B00D8C17E /* SmallPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallPostCell.h; sourceTree = "<group>"; };
-		DFD119811CEC123B00D8C17E /* SmallPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallPostCell.m; sourceTree = "<group>"; };
-		DFD119821CEC123B00D8C17E /* SmallPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallPostCell.xib; sourceTree = "<group>"; };
-		DFD119831CEC123B00D8C17E /* SmallPostCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallPostCollectionView.h; sourceTree = "<group>"; };
-		DFD119841CEC123B00D8C17E /* SmallPostCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallPostCollectionView.m; sourceTree = "<group>"; };
+		DFD119801CEC123B00D8C17E /* SmallPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmallPostCell.h; path = View/SmallPostCell.h; sourceTree = "<group>"; };
+		DFD119811CEC123B00D8C17E /* SmallPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmallPostCell.m; path = View/SmallPostCell.m; sourceTree = "<group>"; };
+		DFD119821CEC123B00D8C17E /* SmallPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SmallPostCell.xib; path = View/SmallPostCell.xib; sourceTree = "<group>"; };
+		DFD119831CEC123B00D8C17E /* SmallPostCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmallPostCollectionView.h; path = View/SmallPostCollectionView.h; sourceTree = "<group>"; };
+		DFD119841CEC123B00D8C17E /* SmallPostCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmallPostCollectionView.m; path = View/SmallPostCollectionView.m; sourceTree = "<group>"; };
+		DFD1198C1CEC6E2000D8C17E /* news.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = news.html; sourceTree = "<group>"; };
+		DFD119AE1CED566B00D8C17E /* CinemaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemaCell.h; sourceTree = "<group>"; };
+		DFD119AF1CED566B00D8C17E /* CinemaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemaCell.m; sourceTree = "<group>"; };
+		DFD119B01CED566B00D8C17E /* CinemaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CinemaCell.xib; sourceTree = "<group>"; };
+		DFD119B31CED5DF900D8C17E /* Cinema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cinema.h; sourceTree = "<group>"; };
+		DFD119B41CED5DF900D8C17E /* Cinema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cinema.m; sourceTree = "<group>"; };
 		DFDBD55A1CE1CDBD0098F778 /* MainTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarButton.h; sourceTree = "<group>"; };
 		DFDBD55B1CE1CDBD0098F778 /* MainTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarButton.m; sourceTree = "<group>"; };
 		DFDBD5601CE1D1BB0098F778 /* duration_tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration_tip.png; sourceTree = "<group>"; };
@@ -616,20 +632,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF1191651CEEE2410084CB8F /* 启动页 */ = {
+			isa = PBXGroup;
+			children = (
+				DF1191661CEEE2860084CB8F /* LaunchViewController.h */,
+				DF1191671CEEE2860084CB8F /* LaunchViewController.m */,
+				DF1191681CEEE2860084CB8F /* LaunchViewController.xib */,
+				DF11916B1CEF02C60084CB8F /* FirstLaunchViewController.h */,
+				DF11916C1CEF02C60084CB8F /* FirstLaunchViewController.m */,
+			);
+			name = "启动页";
+			sourceTree = "<group>";
+		};
 		DF2362861CE2D33500F083BB /* 数据 */ = {
 			isa = PBXGroup;
 			children = (
 				DF2362871CE2D33500F083BB /* actor.json */,
-				DF2362881CE2D33500F083BB /* cinema_detail.json */,
-				DF2362891CE2D33500F083BB /* cinema_list.json */,
 				DF23628A1CE2D33500F083BB /* detail.json */,
-				DF23628B1CE2D33500F083BB /* district_list.json */,
 				DF23628F1CE2D33500F083BB /* new_movie.json */,
-				DF2362901CE2D33500F083BB /* news.html */,
 				DF2362911CE2D33500F083BB /* news_detail.json */,
 				DF2362921CE2D33500F083BB /* news_detail_images.json */,
 				DF2362941CE2D33500F083BB /* readyMovie.json */,
 				DF2362951CE2D33500F083BB /* search.json */,
+				DF2362881CE2D33500F083BB /* cinema_detail.json */,
 				DF2362981CE2D33500F083BB /* 豆瓣api.rtf */,
 			);
 			path = "数据";
@@ -744,6 +769,7 @@
 		DFAC78411CE1B25F001DC46D /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DF1191651CEEE2410084CB8F /* 启动页 */,
 				DFDBD5561CE1CD4E0098F778 /* Public */,
 				DFAC784A1CE1B25F001DC46D /* Movie */,
 				DFAC784E1CE1B25F001DC46D /* News */,
@@ -776,6 +802,10 @@
 		DFAC78441CE1B25F001DC46D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF2362891CE2D33500F083BB /* cinema_list.json */,
+				DF23628B1CE2D33500F083BB /* district_list.json */,
+				DFD119B31CED5DF900D8C17E /* Cinema.h */,
+				DFD119B41CED5DF900D8C17E /* Cinema.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -784,6 +814,9 @@
 			isa = PBXGroup;
 			children = (
 				DFAC78561CE1B27C001DC46D /* CinemaStoryboard.storyboard */,
+				DFD119AE1CED566B00D8C17E /* CinemaCell.h */,
+				DFD119AF1CED566B00D8C17E /* CinemaCell.m */,
+				DFD119B01CED566B00D8C17E /* CinemaCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -825,6 +858,7 @@
 		DFAC784A1CE1B25F001DC46D /* Movie */ = {
 			isa = PBXGroup;
 			children = (
+				DFD119881CEC45EE00D8C17E /* MoviePostView */,
 				DFAC784B1CE1B25F001DC46D /* Controller */,
 				DFAC784C1CE1B25F001DC46D /* Model */,
 				DFAC784D1CE1B25F001DC46D /* View */,
@@ -860,18 +894,6 @@
 				DF2362B01CE3048000F083BB /* MovieCell.xib */,
 				DF2362E61CE322C000F083BB /* RatingView.h */,
 				DF2362E71CE322C000F083BB /* RatingView.m */,
-				DF1561841CEAB0BF003801B1 /* MoviePostView.h */,
-				DF1561851CEAB0BF003801B1 /* MoviePostView.m */,
-				DF1561871CEAED69003801B1 /* MoviePostCollectionView.h */,
-				DF1561881CEAED69003801B1 /* MoviePostCollectionView.m */,
-				DF15618A1CEB1445003801B1 /* MoviePostCollectionCell.h */,
-				DF15618B1CEB1445003801B1 /* MoviePostCollectionCell.m */,
-				DF15618C1CEB1445003801B1 /* MoviePostCollectionCell.xib */,
-				DFD119801CEC123B00D8C17E /* SmallPostCell.h */,
-				DFD119811CEC123B00D8C17E /* SmallPostCell.m */,
-				DFD119821CEC123B00D8C17E /* SmallPostCell.xib */,
-				DFD119831CEC123B00D8C17E /* SmallPostCollectionView.h */,
-				DFD119841CEC123B00D8C17E /* SmallPostCollectionView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -903,6 +925,7 @@
 		DFAC78501CE1B25F001DC46D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DFD1198C1CEC6E2000D8C17E /* news.html */,
 				DF2362931CE2D33500F083BB /* news_list.json */,
 				DF23628C1CE2D33500F083BB /* image_list.json */,
 				DF2363161CE56D1D00F083BB /* News.h */,
@@ -967,6 +990,25 @@
 				DF2363551CE89A4700F083BB /* CommentCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DFD119881CEC45EE00D8C17E /* MoviePostView */ = {
+			isa = PBXGroup;
+			children = (
+				DF1561841CEAB0BF003801B1 /* MoviePostView.h */,
+				DF1561851CEAB0BF003801B1 /* MoviePostView.m */,
+				DF1561871CEAED69003801B1 /* MoviePostCollectionView.h */,
+				DF1561881CEAED69003801B1 /* MoviePostCollectionView.m */,
+				DF15618A1CEB1445003801B1 /* MoviePostCollectionCell.h */,
+				DF15618B1CEB1445003801B1 /* MoviePostCollectionCell.m */,
+				DF15618C1CEB1445003801B1 /* MoviePostCollectionCell.xib */,
+				DFD119831CEC123B00D8C17E /* SmallPostCollectionView.h */,
+				DFD119841CEC123B00D8C17E /* SmallPostCollectionView.m */,
+				DFD119801CEC123B00D8C17E /* SmallPostCell.h */,
+				DFD119811CEC123B00D8C17E /* SmallPostCell.m */,
+				DFD119821CEC123B00D8C17E /* SmallPostCell.xib */,
+			);
+			name = MoviePostView;
 			sourceTree = "<group>";
 		};
 		DFDBD5561CE1CD4E0098F778 /* Public */ = {
@@ -1509,6 +1551,7 @@
 				DFDBD6AD1CE1D1BC0098F778 /* moreAbout@2x.png in Resources */,
 				DF2362A31CE2D33500F083BB /* news_detail.json in Resources */,
 				DFDBD62C1CE1D1BC0098F778 /* duration_tip.png in Resources */,
+				DF11916A1CEEE2870084CB8F /* LaunchViewController.xib in Resources */,
 				DFDBD67C1CE1D1BC0098F778 /* guideProgress4@2x.png in Resources */,
 				DFDBD6971CE1D1BC0098F778 /* movieLocationIcon@2x.png in Resources */,
 				DFDBD6381CE1D1BC0098F778 /* underline_shadow.png in Resources */,
@@ -1538,13 +1581,13 @@
 				DFDBD6DF1CE1D1BC0098F778 /* light.png in Resources */,
 				DFDBD6551CE1D1BC0098F778 /* 10@2x.png in Resources */,
 				DFDBD6E01CE1D1BC0098F778 /* light@2x.png in Resources */,
-				DF2362A21CE2D33500F083BB /* news.html in Resources */,
 				DFDBD6441CE1D1BC0098F778 /* pig.png in Resources */,
 				DFDBD6851CE1D1BC0098F778 /* Icon-Spotlight-40@2x.png in Resources */,
 				DFDBD6D81CE1D1BC0098F778 /* ypf_on@2x.png in Resources */,
 				DF23629A1CE2D33500F083BB /* cinema_detail.json in Resources */,
 				DFDBD6951CE1D1BC0098F778 /* loginFrame@2x.png in Resources */,
 				DFDBD6C71CE1D1BC0098F778 /* playButton@2x.png in Resources */,
+				DFD1198D1CEC6E2000D8C17E /* news.html in Resources */,
 				DF23629B1CE2D33500F083BB /* cinema_list.json in Resources */,
 				DFDBD6661CE1D1BC0098F778 /* 26@2x.png in Resources */,
 				DFDBD65A1CE1D1BC0098F778 /* 15@2x.png in Resources */,
@@ -1566,6 +1609,7 @@
 				DFD119861CEC123B00D8C17E /* SmallPostCell.xib in Resources */,
 				DFDBD6481CE1D1BC0098F778 /* bg_main@2x.png in Resources */,
 				DFDBD6401CE1D1BC0098F778 /* zoomin.png in Resources */,
+				DFD119B21CED566B00D8C17E /* CinemaCell.xib in Resources */,
 				DFDBD6C41CE1D1BC0098F778 /* more_setting.png in Resources */,
 				DFDBD6501CE1D1BC0098F778 /* selectTabbar_bg_all1@2x.png in Resources */,
 				DFDBD6DA1CE1D1BC0098F778 /* down_home.png in Resources */,
@@ -1600,6 +1644,7 @@
 				DFAC786E1CE1B3F2001DC46D /* TopViewController.m in Sources */,
 				DF2362E21CE3178A00F083BB /* UIImage+WebP.m in Sources */,
 				DF2362B11CE3048000F083BB /* MovieCell.m in Sources */,
+				DF1191691CEEE2870084CB8F /* LaunchViewController.m in Sources */,
 				DF2362DF1CE3178A00F083BB /* UIButton+WebCache.m in Sources */,
 				DF23631E1CE5A32100F083BB /* NewsCell.m in Sources */,
 				DF23634C1CE6C67000F083BB /* ImageListViewController.m in Sources */,
@@ -1613,6 +1658,8 @@
 				DFAC78681CE1B364001DC46D /* MovieViewController.m in Sources */,
 				DF2362DA1CE3178A00F083BB /* SDWebImageDecoder.m in Sources */,
 				DF2363151CE5652700F083BB /* JSONDataService.m in Sources */,
+				DFD119B11CED566B00D8C17E /* CinemaCell.m in Sources */,
+				DF11916D1CEF02C60084CB8F /* FirstLaunchViewController.m in Sources */,
 				DF2363C41CE9C74200F083BB /* HNBigImageCollectionView.m in Sources */,
 				DFAC78621CE1B2FE001DC46D /* CinemaViewController.m in Sources */,
 				DF2362E31CE3178A00F083BB /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -1620,6 +1667,7 @@
 				DF2362DB1CE3178A00F083BB /* SDWebImageDownloader.m in Sources */,
 				DF2363591CE8A45300F083BB /* CommentModel.m in Sources */,
 				DF2362D91CE3178A00F083BB /* SDWebImageCompat.m in Sources */,
+				DFD119B51CED5DF900D8C17E /* Cinema.m in Sources */,
 				DF1561891CEAED69003801B1 /* MoviePostCollectionView.m in Sources */,
 				DFAC782F1CE1B1CB001DC46D /* AppDelegate.m in Sources */,
 				DF2362E01CE3178A00F083BB /* UIImage+GIF.m in Sources */,
@@ -1747,7 +1795,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/lhn/GitHub/Test/Movie/Movie/Movie.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Movie/Movie.pch";
 				INFOPLIST_FILE = Movie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lhn.Movie;
@@ -1760,7 +1808,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/lhn/GitHub/Test/Movie/Movie/Movie.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Movie/Movie.pch";
 				INFOPLIST_FILE = Movie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lhn.Movie;

@@ -18,6 +18,13 @@
     }
     _movie = movie;
     [_moviePostImage sd_setImageWithURL:[NSURL URLWithString:movie.images[@"large"]]];
+    
+    [_detailImage sd_setImageWithURL:[NSURL URLWithString:movie.images[@"medium"]]];
+    _titleLabel.text = [NSString stringWithFormat:@"中文名:%@", movie.title];
+    _englishLabel.text = [NSString stringWithFormat:@"英文名:%@", movie.original_title];
+    _yearLabel.text = [NSString stringWithFormat:@"上映年份:%@", movie.year];
+    _ratingLabel.text = [NSString stringWithFormat:@"%.1f", movie.rating];
+    [_ratingImage setRating:movie.rating];
 
 }
 

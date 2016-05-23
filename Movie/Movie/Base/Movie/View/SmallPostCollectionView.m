@@ -77,12 +77,32 @@
     CGFloat width = (self.frame.size.height) / 1.6 + 10;
     CGFloat floatIndex = xOffset / width;
     NSInteger integerIndex = floatIndex + 0.5;
-    
+    self.currentIndex = integerIndex;
     //根据页码计算偏移量
     CGFloat targetXOffset = integerIndex * width;
     
     //设定最后所在位置
     targetContentOffset->x = targetXOffset;
+    
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    //获取点击的单元格编号
+    CGFloat xOffset = collectionView.contentOffset.x;
+    CGFloat width = (self.frame.size.height - 84) / 1.7 + 20;
+    CGFloat floatIndex = xOffset / width;
+    NSInteger integerIndex = floatIndex + 0.5;
+    //进行判断是中间单元格还是两边的
+    if (integerIndex == indexPath.item) {
+        //获取单元格
+//        SmallPostCell *cell = (SmallPostCell *)[collectionView cellForItemAtIndexPath:indexPath];
+    }else {
+        //点击两边单元格，移到中间
+        [collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+        self.currentIndex = indexPath.item;
+    }
+    
     
 }
 

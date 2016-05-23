@@ -93,12 +93,20 @@
     [self creatCollectionView];
     
     [self creatTopCollectionView];
+    
 }
+
+
+
 //创建ocollectionView
 - (void)creatCollectionView {
     
     MoviePostCollectionView *MoviePostCollection = [[MoviePostCollectionView alloc] initWithFrame:CGRectMake(0, -44, KScreenWidth, KScreenHeight - 20 - 49 - 40)];
     [self insertSubview:MoviePostCollection atIndex:0];
+    MoviePostCollection.tag = 1234;
+    
+    //KVO监控页码值
+    [MoviePostCollection addObserver:self forKeyPath:@"currentIndex" options:NSKeyValueObservingOptionNew context:nil];
     
 }
 
@@ -107,6 +115,27 @@
     
     SmallPostCollectionView *SmallPostCollection = [[SmallPostCollectionView alloc] initWithFrame:CGRectMake(0, 10, KScreenWidth, 70)];
     [_headerView insertSubview:SmallPostCollection atIndex:1];
+    SmallPostCollection.tag = 4321;
+    
+    //KVO监控页码值
+    [SmallPostCollection addObserver:self forKeyPath:@"currentIndex" options:NSKeyValueObservingOptionNew context:nil];
+    
+}
+
+#pragma mark KVO
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context {
+    
+    NSInteger itemInteger = [change[@"new"] integerValue];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:itemInteger inSection:0];
+    //获取视图
+    SmallPostCollectionView *header = (SmallPostCollectionView *)[_headerView viewWithTag:4321];
+    MoviePostCollectionView *postCollection = (MoviePostCollectionView *)[self viewWithTag:1234];
+    //通过判断对象来确定需要改变的对象
+    if (object == header && postCollection.currentIndex != itemInteger) {
+        [postCollection scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+    }else if(object == postCollection && header.currentIndex != itemInteger){
+        [header scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+    }
     
 }
 

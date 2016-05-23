@@ -32,9 +32,24 @@
                     <view key="view" contentMode="scaleToFill" id="HQa-UK-k4I">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IHJ-vb-OJK">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="IHJ-vb-OJK" firstAttribute="leading" secondItem="HQa-UK-k4I" secondAttribute="leading" id="0ar-jO-zq2"/>
+                            <constraint firstItem="IHJ-vb-OJK" firstAttribute="bottom" secondItem="Pwf-lp-WcN" secondAttribute="top" id="1Ay-n0-Msr"/>
+                            <constraint firstAttribute="trailing" secondItem="IHJ-vb-OJK" secondAttribute="trailing" id="9NN-SK-Yqn"/>
+                            <constraint firstItem="IHJ-vb-OJK" firstAttribute="top" secondItem="HQa-UK-k4I" secondAttribute="top" id="kpF-hJ-E07"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="影院" id="BBG-gW-2FF"/>
+                    <connections>
+                        <outlet property="CinemaTableView" destination="IHJ-vb-OJK" id="aLE-q5-dmH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7bh-7t-xwA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

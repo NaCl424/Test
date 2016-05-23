@@ -16,7 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:webView];
+    
+    //用URL加载网页
+//    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]];
+//    [webView loadRequest:request];
+    
+    //加载本地HTML文件
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"news" ofType:@"html"];
+    NSString *data = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+    [webView loadHTMLString:data baseURL:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {

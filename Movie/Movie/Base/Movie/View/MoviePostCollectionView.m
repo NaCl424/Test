@@ -86,7 +86,7 @@
     CGFloat width = (self.frame.size.height - 84) / 1.7 + 20;
     CGFloat floatIndex = xOffset / width;
     NSInteger integerIndex = floatIndex + 0.5;
-    
+    self.currentIndex = integerIndex;
     //根据页码计算偏移量
     CGFloat targetXOffset = integerIndex * width;
     
@@ -108,10 +108,10 @@
         MoviePostCollectionCell *cell = (MoviePostCollectionCell *)[collectionView cellForItemAtIndexPath:indexPath];
         //翻转
         [cell flipView];
-        
     }else {
         //点击两边单元格，移到中间
         [collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+        self.currentIndex = indexPath.item;
     }
     
     

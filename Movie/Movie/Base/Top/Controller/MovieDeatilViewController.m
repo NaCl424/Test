@@ -27,7 +27,7 @@
     [super viewDidLoad];
     //加载数据
     [self loadData];
-
+    
 }
 
 #pragma mark 获取数据
@@ -150,7 +150,7 @@
         NSString *str = cell.content.text;
         CGSize size = [str sizeWithFont:[UIFont systemFontOfSize:16] constrainedToSize:CGSizeMake(cell.commentBackView.frame.size.width - 10, 1000)];
         cell.content.size = size;
-        cellHeight = size.height + 40;
+        cellHeight = size.height + 45;
         [tableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationNone];
     }
 }

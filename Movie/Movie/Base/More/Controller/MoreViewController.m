@@ -7,8 +7,10 @@
 //
 
 #import "MoreViewController.h"
+#define kCacheFilePath [NSHomeDirectory() stringByAppendingPathComponent:@"Library/Caches"]
 
 @interface MoreViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *cacheLabel;
 
 @end
 
@@ -16,8 +18,78 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
 }
+
+- (void)viewWillAppear:(BOOL)animated {
+    
+    NSString *cacheFilePath = kCacheFilePath;
+    long long fileSize = [self sizeOfCacheFileInPath:cacheFilePath];
+    //文件大小
+    CGFloat fileSizeWithKB = fileSize / 1024;
+    if (fileSizeWithKB >= 1024) {
+        _cacheLabel.text = [NSString stringWithFormat:@"%.2fMB", fileSizeWithKB / 1024];
+    }else {
+        _cacheLabel.text = [NSString stringWithFormat:@"%.2fKB", fileSizeWithKB];
+    }
+    
+}
+
+- (long long)sizeOfCacheFileInPath:(NSString *)path {
+    
+    long long allFileSize = 0;
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSArray *subFiles = [fileManager subpathsOfDirectoryAtPath:kCacheFilePath error:nil];
+    for (NSString *subFilePath in subFiles) {
+        //通过路径获取子文件路径
+        NSString *filePath = [kCacheFilePath stringByAppendingPathComponent:subFilePath];
+        //获取文件大小
+        NSDictionary *dic = [fileManager attributesOfItemAtPath:filePath error:nil];
+        long long subFileSize = [dic[NSFileSize] longLongValue];
+        allFileSize += subFileSize;
+    }
+
+    return allFileSize;
+}
+
+- (void)clearCache {
+    
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSArray *subFiles = [fileManager subpathsOfDirectoryAtPath:kCacheFilePath error:nil];
+    for (NSString *subFilePath in subFiles) {
+        //通过路径获取子文件路径
+        NSString *filePath = [kCacheFilePath stringByAppendingPathComponent:subFilePath];
+        //删除清理缓存
+        [fileManager removeItemAtPath:filePath error:nil];
+    }
+    long long fileSize = [self sizeOfCacheFileInPath:kCacheFilePath];
+    //文件大小
+    CGFloat fileSizeWithKB = fileSize / 1024;
+    if (fileSizeWithKB >= 1024) {
+        _cacheLabel.text = [NSString stringWithFormat:@"%.2fMB", fileSizeWithKB / 1024];
+    }else {
+        _cacheLabel.text = [NSString stringWithFormat:@"%.2fKB", fileSizeWithKB];
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.row == 0) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"警告" message:@"正在清理所有缓存。。。" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确认清理", nil];
+        [alert show];
+    }
+}
+//弹出警告是否清理缓存
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+
+    if (buttonIndex == 1) {
+        
+        [self clearCache];
+    }
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

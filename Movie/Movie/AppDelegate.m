@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MainTabBarController.h"
-//@class MainTabBarController;
+#import "FirstLaunchViewController.h"
+#import "LaunchViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,8 +20,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[MainTabBarController alloc] init];
+//    self.window.rootViewController = [[FirstLaunchViewController alloc] init];
     [self.window makeKeyAndVisible];
+    
+    //是否为第一次启动
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSString *key = @"isNotFirstLaunch";
+    
+    id object = [userDefaults objectForKey:key];
+    if (object) {
+        self.window.rootViewController = [[LaunchViewController alloc] init];
+    }else {
+        //第一次启动
+        self.window.rootViewController = [[FirstLaunchViewController alloc] init];
+    }
     
     return YES;
 }

@@ -10,4 +10,6 @@
 
 @interface MoviePostCollectionView : UICollectionView <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
+@property (nonatomic, assign) NSInteger currentIndex;
+
 @end
