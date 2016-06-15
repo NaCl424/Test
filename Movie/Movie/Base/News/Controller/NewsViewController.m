@@ -11,6 +11,7 @@
 #import "NewsCell.h"
 #import "ImageListViewController.h"
 #import "WebNewsViewController.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 
 @interface NewsViewController () <UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate>
@@ -122,7 +123,13 @@
         }
         case NewsTypeVedio:
         {
-            NSLog(@"视频新闻");
+            /*
+             http://vf1.mtime.cn/Video/2012/04/23/mp4/120423212602431929.mp4
+             */
+//            NSLog(@"视频新闻");
+            NSURL *url = [NSURL URLWithString:@"http://vf1.mtime.cn/Video/2012/04/23/mp4/120423212602431929.mp4"];
+            MPMoviePlayerViewController *movieVC = [[MPMoviePlayerViewController alloc] initWithContentURL:url];
+            [self presentModalViewController:movieVC animated:YES];
             break;
         }
         default:
