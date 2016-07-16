@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="20" id="KGk-i7-Jjw" customClass="FoodCell">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="173"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="172"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kRD-Ak-oRh">
+                        <rect key="frame" x="8" y="36" width="120" height="100"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="0GF-t8-S3E"/>
+                            <constraint firstAttribute="width" constant="120" id="40m-nv-tT8"/>
+                            <constraint firstAttribute="height" constant="120" id="KLl-OU-1Da"/>
+                            <constraint firstAttribute="height" constant="100" id="tCx-vn-fRH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0GF-t8-S3E"/>
+                                <exclude reference="KLl-OU-1Da"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sum" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctr-kU-wGb">
+                        <rect key="frame" x="138" y="124" width="211" height="30"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="ykZ-st-cZI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大阪烧" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hlu-kv-JRr">
+                        <rect key="frame" x="138" y="36" width="211" height="30"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="9NZ-wb-nWD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="kRD-Ak-oRh" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="360-iv-pFx"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ctr-kU-wGb" secondAttribute="bottom" constant="10" id="4H8-Zh-xsw"/>
+                    <constraint firstItem="kRD-Ak-oRh" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="8vk-Tn-p3a"/>
+                    <constraint firstItem="Hlu-kv-JRr" firstAttribute="top" secondItem="kRD-Ak-oRh" secondAttribute="top" id="AkQ-BE-eig"/>
+                    <constraint firstItem="kRD-Ak-oRh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Egc-rE-FOB"/>
+                    <constraint firstItem="kRD-Ak-oRh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="K8V-XT-0ua"/>
+                    <constraint firstItem="ctr-kU-wGb" firstAttribute="trailing" secondItem="Hlu-kv-JRr" secondAttribute="trailing" id="MCq-Ad-hEy"/>
+                    <constraint firstItem="Hlu-kv-JRr" firstAttribute="leading" secondItem="kRD-Ak-oRh" secondAttribute="trailing" constant="10" id="Mo5-7A-pMT"/>
+                    <constraint firstItem="Hlu-kv-JRr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="Otf-2L-xGz"/>
+                    <constraint firstItem="Hlu-kv-JRr" firstAttribute="top" secondItem="kRD-Ak-oRh" secondAttribute="top" id="UfG-h6-dyz"/>
+                    <constraint firstItem="ctr-kU-wGb" firstAttribute="top" secondItem="Hlu-kv-JRr" secondAttribute="bottom" constant="20" id="aC1-po-FqA"/>
+                    <constraint firstItem="ctr-kU-wGb" firstAttribute="leading" secondItem="Hlu-kv-JRr" secondAttribute="leading" id="mOY-7G-hWy"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Hlu-kv-JRr" secondAttribute="trailing" constant="-8" id="qji-Wt-mRy"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="8vk-Tn-p3a"/>
+                        <exclude reference="Egc-rE-FOB"/>
+                        <exclude reference="Otf-2L-xGz"/>
+                        <exclude reference="UfG-h6-dyz"/>
+                        <exclude reference="aC1-po-FqA"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="foodImageView" destination="kRD-Ak-oRh" id="ieL-NK-ZYx"/>
+                <outlet property="name" destination="Hlu-kv-JRr" id="lio-kM-H39"/>
+                <outlet property="sum" destination="ctr-kU-wGb" id="azE-0o-xpf"/>
+            </connections>
+            <point key="canvasLocation" x="222.5" y="282.5"/>
+        </tableViewCell>
+    </objects>
+</document>

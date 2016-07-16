@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F97C8780128C73478CFF0E3DAE5DE3096A9E665A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ACE14D3FC593D768FEB23616CE71760207676C3F" : 0,
+    "F97C8780128C73478CFF0E3DAE5DE3096A9E665A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CB877429-956F-48C7-83E1-A10E1C6D0AE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ACE14D3FC593D768FEB23616CE71760207676C3F" : "%E4%BD%99%E5%91%B3\/",
+    "F97C8780128C73478CFF0E3DAE5DE3096A9E665A" : "%E5%85%AC%E5%85%B1%E4%BD%99%E5%91%B3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AfterTaste",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AfterTaste\/AfterTaste.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/Apel0811\/AfterTaste",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ACE14D3FC593D768FEB23616CE71760207676C3F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/chen_zhijian\/AfterTaste",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F97C8780128C73478CFF0E3DAE5DE3096A9E665A"
+    }
+  ]
+}

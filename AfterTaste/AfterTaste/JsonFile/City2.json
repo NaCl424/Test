@@ -1,0 +1,65 @@
+{
+    "data": {
+        "list": [
+                 {
+                 "type": "zn",
+                 "title": "美食指南",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "http://www.youyuwei.com/etiquette/10264"
+                 },
+                 {
+                 "type": "ts",
+                 "title": "必吃美食",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 0,
+                 "url": "yuwei://mustdishlist/10264"
+                 },
+                 {
+                 "type": "jp",
+                 "title": "必去餐厅",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://restrefined/10264"
+                 },
+                 {
+                 "type": "fy",
+                 "title": "在线翻译",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://translate/英语"
+                 },
+                 {
+                 "type": "dt",
+                 "title": "美食地图",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://restlist/10264?type=1"
+                 },
+                 {
+                 "type": "jd",
+                 "title": "食在景点",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 0,
+                 "url": "yuwei://scenery/10264"
+                 }
+                 ],
+        "cityinfo": {
+            "lng": "4.1768337",
+            "lat": "9.0611065",
+            "state": "非洲",
+            "in_china": 0,
+            "language": "英语",
+            "cover": "http://cdn.youyuwei.com/o_1a4p3o5jelvr19hsd3a1bq73qqj.jpg?imageMogr2/blur/20x10",
+            "id": "10264",
+            "name": "尼日利亚",
+            "en": "",
+            "province": "",
+            "country": "尼日利亚",
+            "sum": "在“黑非文化摇篮”品尝异国美食",
+            "desc": "尼日利亚并不是大多数人海外游会考虑的国家，但如果你是个非洲迷，一定要来“黑非文化摇篮”尼日利亚看一看。尼日利亚是低收入但是民众幸福感却很高的国家，40%的人口信仰基督教，50%信仰伊斯兰教，在尼日利亚的第一大港口拉各斯，你可能经常遇到礼拜日老板不做生意关门带着全家高高兴兴去参加礼拜。城市的街道常常拥堵，当你停下来的时候，会看到各种小贩忙碌穿梭于车辆间，你几乎可以在他们手里买到所有日常生活所需用品。但当他们赚到一些钱时，便会仿佛未来没有任何烦恼的停止工作享受慢生活。来到尼日利亚，你也可以放慢脚步，在拉各斯的海边走走，品尝渔民新鲜捕捞，就在沙滩上直接烧烤售卖的各种海鱼。也可以到繁华的当地集市挑选数不清的热带水果，找一家街头咖啡馆坐下来看看只要有音乐就会欢快起舞的尼日利亚人，跟着他们迷失在热烈的非洲舞蹈和音乐里。首都阿布贾除了有雄伟壮观的国家大教堂，大清真寺，你还能找到隐秘街头的各种尼日利亚和非洲当地美食，甚至世界各地诸如寿司，披萨，汉堡，中餐厅数量也不少。尼日利亚人喜欢吃一种叫做Suya的烤肉，类似中国的烤串。还有各种Jollof Rice，就像中国的煲仔饭，烩饭。他们也喜欢各种粥和蔬菜汤，身处尼日利亚的你，也许会有一种陌生又熟悉的奇妙感觉。\n",
+            "keyword": "尼日利亚美食"
+        }
+    },
+    "is_array": 1
+}

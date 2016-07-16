@@ -1,0 +1,19 @@
+{
+    "data": {
+        "list": [
+                 {
+                 "id": "10264",
+                 "name": "尼日利亚",
+                 "province": "",
+                 "country": "尼日利亚",
+                 "state": "非洲",
+                 "lng": "4.1768337",
+                 "lat": "9.0611065",
+                 "summary": "在“黑非文化摇篮”品尝异国美食",
+                 "cover": "http://cdn.youyuwei.com/o_1a4p3o5jelvr19hsd3a1bq73qqj.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10264"
+                 }
+                 ]
+    },
+    "is_array": 1
+}

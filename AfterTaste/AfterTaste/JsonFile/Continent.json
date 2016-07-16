@@ -1,0 +1,1140 @@
+{
+    "data": {
+        "list": [
+                 {
+                 "title": "亚洲",
+                 "type": "yz",
+                 "content": [
+                             {
+                             "id": "10059",
+                             "name": "卡塔尔国",
+                             "cover": "http://cdn.youyuwei.com/o_1a4cujb5l1o2ftcc1uuddrek49.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/卡塔尔国",
+                             "url1": "yuwei://country/10059"
+                             },
+                             {
+                             "id": "10031",
+                             "name": "日本",
+                             "cover": "http://cdn.youyuwei.com/o_19vpr7qou17mj538o32etpmg29.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/日本",
+                             "url1": "yuwei://country/10031"
+                             },
+                             {
+                             "id": "10016",
+                             "name": "韩国",
+                             "cover": "http://cdn.youyuwei.com/o_19vpqnudm1uiu15mrfr97kv1cu39.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/韩国",
+                             "url1": "yuwei://country/10016"
+                             },
+                             {
+                             "id": "10035",
+                             "name": "泰国",
+                             "cover": "http://cdn.youyuwei.com/o_19vppca2g1ag6p8sgo3175l19i49.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/泰国",
+                             "url1": "yuwei://country/10035"
+                             },
+                             {
+                             "id": "10043",
+                             "name": "新加坡",
+                             "cover": "http://cdn.youyuwei.com/o_19vppvm7j1sf91d5815js16qqh3f9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/新加坡",
+                             "url1": "yuwei://country/10043"
+                             },
+                             {
+                             "id": "10030",
+                             "name": "马来西亚",
+                             "cover": "http://cdn.youyuwei.com/o_19q5eqt9eqa1re444t1t8n12lp9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/马来西亚",
+                             "url1": "yuwei://country/10030"
+                             },
+                             {
+                             "id": "10052",
+                             "name": "越南",
+                             "cover": "http://cdn.youyuwei.com/o_19vppgogi1ain1dn8767ir6aoc9.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/越南",
+                             "url1": "yuwei://country/10052"
+                             },
+                             {
+                             "id": "10050",
+                             "name": "印度尼西亚",
+                             "cover": "http://cdn.youyuwei.com/o_19q5fgk6a1v9vkegj8bud91m1t9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/印度尼西亚",
+                             "url1": "yuwei://country/10050"
+                             },
+                             {
+                             "id": "10049",
+                             "name": "印度",
+                             "cover": "http://cdn.youyuwei.com/o_19vprvgg21s9e13h0mk7fcahhk9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/印度",
+                             "url1": "yuwei://country/10049"
+                             },
+                             {
+                             "id": "10036",
+                             "name": "土耳其",
+                             "cover": "http://cdn.youyuwei.com/o_19vpvh557ndu1dfekli1phb10dp9.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/土耳其",
+                             "url1": "yuwei://country/10036"
+                             },
+                             {
+                             "id": "10012",
+                             "name": "菲律宾",
+                             "cover": "http://cdn.youyuwei.com/o_19q5c81mb5ja71g13g1hibe089.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/菲律宾",
+                             "url1": "yuwei://country/10012"
+                             },
+                             {
+                             "id": "10025",
+                             "name": "尼泊尔",
+                             "cover": "http://cdn.youyuwei.com/o_19vpqt5lb13r519dn1b437v1q149.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/尼泊尔",
+                             "url1": "yuwei://country/10025"
+                             },
+                             {
+                             "id": "10019",
+                             "name": "柬埔寨",
+                             "cover": "http://cdn.youyuwei.com/o_19q5ehg7vmmtdsaql01lgrim9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/柬埔寨",
+                             "url1": "yuwei://country/10019"
+                             },
+                             {
+                             "id": "10026",
+                             "name": "老挝",
+                             "cover": "http://cdn.youyuwei.com/o_19q5eo5r2qlds7c18kagp6s0p9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/老挝",
+                             "url1": "yuwei://country/10026"
+                             },
+                             {
+                             "id": "10041",
+                             "name": "缅甸",
+                             "cover": "http://cdn.youyuwei.com/o_19q5f75uh125edo5og0u5n1o8a9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/缅甸",
+                             "url1": "yuwei://country/10041"
+                             },
+                             {
+                             "id": "10038",
+                             "name": "文莱",
+                             "cover": "http://cdn.youyuwei.com/o_19q5eujnt1d76a5816flc3l1ul09.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/文莱",
+                             "url1": "yuwei://country/10038"
+                             },
+                             {
+                             "id": "10037",
+                             "name": "蒙古国",
+                             "cover": "http://cdn.youyuwei.com/o_19vprqfftp6v14khjs8cr1kq89.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/蒙古国",
+                             "url1": "yuwei://country/10037"
+                             },
+                             {
+                             "id": "10034",
+                             "name": "斯里兰卡",
+                             "cover": "http://cdn.youyuwei.com/o_19q5ervn41f7lddje76pcp1kui9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/斯里兰卡",
+                             "url1": "yuwei://country/10034"
+                             },
+                             {
+                             "id": "10047",
+                             "name": "以色列",
+                             "cover": "http://cdn.youyuwei.com/o_19q5fe5ah71jf0p1c3v1ps71n7t9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/以色列",
+                             "url1": "yuwei://country/10047"
+                             },
+                             {
+                             "id": "10001",
+                             "name": "阿联酋",
+                             "cover": "http://cdn.youyuwei.com/o_19q5b14sf1ruh8r51bp36p117ql9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/阿联酋",
+                             "url1": "yuwei://country/10001"
+                             },
+                             {
+                             "id": "10046",
+                             "name": "伊朗",
+                             "cover": "http://cdn.youyuwei.com/o_19vprs77mvqsk8e4bs10cks6k9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/伊朗",
+                             "url1": "yuwei://country/10046"
+                             },
+                             {
+                             "id": "10053",
+                             "name": "中国",
+                             "cover": "http://cdn.youyuwei.com/o_19vps27v0a341s3b1oc4g6rh4j9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/中国",
+                             "url1": "yuwei://country/10053"
+                             }
+                             ],
+                 "more_url": "yuwei://state/亚洲"
+                 },
+                 {
+                 "title": "美洲",
+                 "type": "mz",
+                 "content": [
+                             {
+                             "id": "10058",
+                             "name": "智利",
+                             "cover": "http://cdn.youyuwei.com/o_1a3e38e0h9pi19mm11991ofhpkt9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/智利",
+                             "url1": "yuwei://country/10058"
+                             },
+                             {
+                             "id": "10003",
+                             "name": "巴西",
+                             "cover": "http://cdn.youyuwei.com/o_19q5bc94ihm0qh3hquehl72s9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/巴西",
+                             "url1": "yuwei://country/10003"
+                             },
+                             {
+                             "id": "10000",
+                             "name": "阿根廷",
+                             "cover": "http://cdn.youyuwei.com/o_19q5atqskjv2cbf16ik6nt13v59.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/阿根廷",
+                             "url1": "yuwei://country/10000"
+                             },
+                             {
+                             "id": "10056",
+                             "name": "巴巴多斯",
+                             "cover": "http://cdn.youyuwei.com/o_1a2mh9d5cepg1kth197i1m5nktk9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/巴巴多斯",
+                             "url1": "yuwei://country/10056"
+                             },
+                             {
+                             "id": "10033",
+                             "name": "美国",
+                             "cover": "http://cdn.youyuwei.com/o_19vpqhpsh1q0bac31q101jsoicq9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/美国",
+                             "url1": "yuwei://country/10033"
+                             },
+                             {
+                             "id": "10018",
+                             "name": "加拿大",
+                             "cover": "http://cdn.youyuwei.com/o_19q5ef76k15ct1i6p1eightht849.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/加拿大",
+                             "url1": "yuwei://country/10018"
+                             },
+                             {
+                             "id": "10022",
+                             "name": "墨西哥",
+                             "cover": "http://cdn.youyuwei.com/o_19q5em4mo17vpcgu1q76iob106d9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/墨西哥",
+                             "url1": "yuwei://country/10022"
+                             },
+                             {
+                             "id": "10015",
+                             "name": "古巴",
+                             "cover": "http://cdn.youyuwei.com/o_19q5cepom6hkpeq578o2e9b29.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/古巴",
+                             "url1": "yuwei://country/10015"
+                             }
+                             ],
+                 "more_url": "yuwei://state/美洲"
+                 },
+                 {
+                 "title": "非洲",
+                 "type": "fz",
+                 "content": [
+                             {
+                             "id": "10060",
+                             "name": "尼日利亚",
+                             "cover": "http://cdn.youyuwei.com/o_1a4p3t9ffvml50e15781dt2n4j9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/尼日利亚",
+                             "url1": "yuwei://country/10060"
+                             },
+                             {
+                             "id": "10061",
+                             "name": "安哥拉",
+                             "cover": "http://cdn.youyuwei.com/o_1a4pfd98u1ghl5d1je3j7qmu9.png?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/安哥拉",
+                             "url1": "yuwei://country/10061"
+                             },
+                             {
+                             "id": "10062",
+                             "name": "马达加斯加",
+                             "cover": "http://cdn.youyuwei.com/o_1a4rnlrcf14qeo668rb3eu4q9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/马达加斯加",
+                             "url1": "yuwei://country/10062"
+                             },
+                             {
+                             "id": "10063",
+                             "name": "乌干达",
+                             "cover": "http://cdn.youyuwei.com/o_1a62b49kp1b81h691j271b8i1i2s9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/乌干达",
+                             "url1": "yuwei://country/10063"
+                             },
+                             {
+                             "id": "10064",
+                             "name": "阿尔及利亚",
+                             "cover": "http://cdn.youyuwei.com/o_1a6pq1s4ht5917ll5ic122h1aua.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/阿尔及利亚",
+                             "url1": "yuwei://country/10064"
+                             },
+                             {
+                             "id": "10024",
+                             "name": "南非",
+                             "cover": "http://cdn.youyuwei.com/o_19q5emvnp1fcs15qhnno1i1g119d9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/南非",
+                             "url1": "yuwei://country/10024"
+                             },
+                             {
+                             "id": "10054",
+                             "name": "埃及",
+                             "cover": "http://cdn.youyuwei.com/o_19vved85hvgj1389ckcrb383i9.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/埃及",
+                             "url1": "yuwei://country/10054"
+                             },
+                             {
+                             "id": "10055",
+                             "name": "毛里求斯",
+                             "cover": "http://cdn.youyuwei.com/o_19vveekp31cl31nkfco511r11ftn9.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/毛里求斯",
+                             "url1": "yuwei://country/10055"
+                             },
+                             {
+                             "id": "10020",
+                             "name": "摩洛哥",
+                             "cover": "http://cdn.youyuwei.com/o_19q5el349sd41sur3ub13igk959.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/摩洛哥",
+                             "url1": "yuwei://country/10020"
+                             },
+                             {
+                             "id": "10023",
+                             "name": "肯尼亚",
+                             "cover": "http://cdn.youyuwei.com/o_19q5en3k01pj0tmt1n2p159t1uvd9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/肯尼亚",
+                             "url1": "yuwei://country/10023"
+                             }
+                             ],
+                 "more_url": "yuwei://state/非洲"
+                 },
+                 {
+                 "title": "欧洲",
+                 "type": "oz",
+                 "content": [
+                             {
+                             "id": "10057",
+                             "name": "奥地利",
+                             "cover": "http://cdn.youyuwei.com/o_1a2mhhg3c1a39g91c421f1kqgt9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/奥地利",
+                             "url1": "yuwei://country/10057"
+                             },
+                             {
+                             "id": "10065",
+                             "name": "丹麦",
+                             "cover": "http://cdn.youyuwei.com/o_1am12ujq8146oj6o10on1co51d539.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/丹麦",
+                             "url1": "yuwei://country/10065"
+                             },
+                             {
+                             "id": "10011",
+                             "name": "法国",
+                             "cover": "http://cdn.youyuwei.com/o_19q5c78n11q11t7h1rtm1md119pn9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/法国",
+                             "url1": "yuwei://country/10011"
+                             },
+                             {
+                             "id": "10051",
+                             "name": "英国",
+                             "cover": "http://cdn.youyuwei.com/o_19q5fhjjl1to41hs35lcgpq1h989.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/英国",
+                             "url1": "yuwei://country/10051"
+                             },
+                             {
+                             "id": "10040",
+                             "name": "西班牙",
+                             "cover": "http://cdn.youyuwei.com/o_19q5f4h0g117fv1qobuuih1jsv9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/西班牙",
+                             "url1": "yuwei://country/10040"
+                             },
+                             {
+                             "id": "10048",
+                             "name": "意大利",
+                             "cover": "http://cdn.youyuwei.com/o_19q5ff179ui51q9tji7j5cleu9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/意大利",
+                             "url1": "yuwei://country/10048"
+                             },
+                             {
+                             "id": "10009",
+                             "name": "德国",
+                             "cover": "http://cdn.youyuwei.com/o_19q5c46cav3m27j1qu612f51429.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/德国",
+                             "url1": "yuwei://country/10009"
+                             },
+                             {
+                             "id": "10004",
+                             "name": "比利时",
+                             "cover": "http://cdn.youyuwei.com/o_19q5bdj6fjapcek1gn4qd97j09.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/比利时",
+                             "url1": "yuwei://country/10004"
+                             },
+                             {
+                             "id": "10021",
+                             "name": "捷克",
+                             "cover": "http://cdn.youyuwei.com/o_19q5ekf3o7fkaaek782rcnjr9.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/捷克",
+                             "url1": "yuwei://country/10021"
+                             },
+                             {
+                             "id": "10007",
+                             "name": "波兰",
+                             "cover": "http://cdn.youyuwei.com/o_19q5bjikt1rp214lps971mdfqpr9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/波兰",
+                             "url1": "yuwei://country/10007"
+                             },
+                             {
+                             "id": "10010",
+                             "name": "俄罗斯",
+                             "cover": "http://cdn.youyuwei.com/o_19vpqf899n2o1jmdifbfeu19179.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/俄罗斯",
+                             "url1": "yuwei://country/10010"
+                             },
+                             {
+                             "id": "10029",
+                             "name": "葡萄牙",
+                             "cover": "http://cdn.youyuwei.com/o_19q5epi4s75e1901ut31uev1orp9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/葡萄牙",
+                             "url1": "yuwei://country/10029"
+                             },
+                             {
+                             "id": "10039",
+                             "name": "乌克兰",
+                             "cover": "http://cdn.youyuwei.com/o_19q5evophe6p1i1ul5k6ms4249.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/乌克兰",
+                             "url1": "yuwei://country/10039"
+                             },
+                             {
+                             "id": "10042",
+                             "name": "希腊",
+                             "cover": "http://cdn.youyuwei.com/o_19q5f871d70qlh912e61d9m1hor9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/希腊",
+                             "url1": "yuwei://country/10042"
+                             },
+                             {
+                             "id": "10017",
+                             "name": "荷兰",
+                             "cover": "http://cdn.youyuwei.com/o_19q5ckh555111prspnpkv38gq9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/荷兰",
+                             "url1": "yuwei://country/10017"
+                             },
+                             {
+                             "id": "10014",
+                             "name": "芬兰",
+                             "cover": "http://cdn.youyuwei.com/o_19q5cag22nee1r7i1vuooi91gvu9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/芬兰",
+                             "url1": "yuwei://country/10014"
+                             },
+                             {
+                             "id": "10032",
+                             "name": "瑞士",
+                             "cover": "http://cdn.youyuwei.com/o_19q5ercgeotdng6r3e1h917jg9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/瑞士",
+                             "url1": "yuwei://country/10032"
+                             },
+                             {
+                             "id": "10045",
+                             "name": "摩纳哥公国",
+                             "cover": "http://cdn.youyuwei.com/o_19q5fauj1ma41q86lca1s221dhr9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/摩纳哥公国",
+                             "url1": "yuwei://country/10045"
+                             },
+                             {
+                             "id": "10027",
+                             "name": "挪威",
+                             "cover": "http://cdn.youyuwei.com/o_19q5eo4mi10j148le7558p1tj49.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/挪威",
+                             "url1": "yuwei://country/10027"
+                             },
+                             {
+                             "id": "10005",
+                             "name": "冰岛",
+                             "cover": "http://cdn.youyuwei.com/o_19q5bf5mk1q9f1jnh1i5l1g585nv9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/冰岛",
+                             "url1": "yuwei://country/10005"
+                             }
+                             ],
+                 "more_url": "yuwei://state/欧洲"
+                 },
+                 {
+                 "title": "大洋洲",
+                 "type": "dyz",
+                 "content": [
+                             {
+                             "id": "10002",
+                             "name": "澳大利亚",
+                             "cover": "http://cdn.youyuwei.com/o_19q5b37ml180k1beh1vui19381cgs9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/澳大利亚",
+                             "url1": "yuwei://country/10002"
+                             },
+                             {
+                             "id": "10044",
+                             "name": "新西兰",
+                             "cover": "http://cdn.youyuwei.com/o_19q5fcbi3mejqgq1iv1112c1m5u9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/新西兰",
+                             "url1": "yuwei://country/10044"
+                             },
+                             {
+                             "id": "10008",
+                             "name": "大溪地",
+                             "cover": "http://cdn.youyuwei.com/o_19vpq7ugb1fvujr0140h1qchs2t9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/大溪地",
+                             "url1": "yuwei://country/10008"
+                             },
+                             {
+                             "id": "10013",
+                             "name": "斐济",
+                             "cover": "http://cdn.youyuwei.com/o_19vpqcisa1hr61u5t33vn80fuu9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/斐济",
+                             "url1": "yuwei://country/10013"
+                             },
+                             {
+                             "id": "10028",
+                             "name": "帕劳",
+                             "cover": "http://cdn.youyuwei.com/o_19vpr4rof1lgs1i0qj7aj81hfl9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://country/帕劳",
+                             "url1": "yuwei://country/10028"
+                             }
+                             ],
+                 "more_url": "yuwei://state/大洋洲"
+                 },
+                 {
+                 "title": "中国",
+                 "type": "zg",
+                 "content": [
+                             {
+                             "id": "10000",
+                             "name": "凤凰",
+                             "cover": "http://cdn.youyuwei.com/cf4bf62759a7faa0eceeb2e10eabedec.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10000"
+                             },
+                             {
+                             "id": "10001",
+                             "name": "厦门",
+                             "cover": "http://cdn.youyuwei.com/b271e5ba23b1a60d4bb517b0197a240b.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10001"
+                             },
+                             {
+                             "id": "10004",
+                             "name": "威海",
+                             "cover": "http://cdn.youyuwei.com/05967881e568d35b25543423f969f906.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10004"
+                             },
+                             {
+                             "id": "10005",
+                             "name": "无锡",
+                             "cover": "http://cdn.youyuwei.com/o_1a6n6u3vh1tsi1ed13aa96u13ob9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10005"
+                             },
+                             {
+                             "id": "10007",
+                             "name": "洛阳",
+                             "cover": "http://cdn.youyuwei.com/o_19vpv27u414n713l3in282q15q69.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10007"
+                             },
+                             {
+                             "id": "10008",
+                             "name": "澳门",
+                             "cover": "http://cdn.youyuwei.com/o_1aal5gma5n19hc210pnvm1o879.jpg,o_1aal5lomj17f11oj5lq33oj1h1b9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10008"
+                             },
+                             {
+                             "id": "10009",
+                             "name": "西安",
+                             "cover": "http://cdn.youyuwei.com/o_19vpv5rd56s12uv50e163uhgm9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10009"
+                             },
+                             {
+                             "id": "10010",
+                             "name": "重庆",
+                             "cover": "http://cdn.youyuwei.com/177b29224d234a91bb4995fb292a519d.jpg,3ca7c6b625d23299429331fc2d577b14.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10010"
+                             },
+                             {
+                             "id": "10012",
+                             "name": "长沙",
+                             "cover": "http://cdn.youyuwei.com/4c338f53041bc50513ac2be59de62a93.jpg,d37cc6169f45f728ed150e391416b1d6.jpg,ca0b3a9a911723dfd2b3259837df8118.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10012"
+                             },
+                             {
+                             "id": "10013",
+                             "name": "青岛",
+                             "cover": "http://cdn.youyuwei.com/o_19vpviqf21g4d1kae1fna114fgvn9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10013"
+                             },
+                             {
+                             "id": "10014",
+                             "name": "黄山",
+                             "cover": "http://cdn.youyuwei.com/d37c0011cd8e46a4368fcbb37b429399.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10014"
+                             },
+                             {
+                             "id": "10022",
+                             "name": "三亚",
+                             "cover": "http://cdn.youyuwei.com/o_1a01iu6j9dbc13j9f1u1veh136e9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10022"
+                             },
+                             {
+                             "id": "10024",
+                             "name": "东莞",
+                             "cover": "http://cdn.youyuwei.com/o_19vvb21k81ac61ksv1fn31ir4ibu9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10024"
+                             },
+                             {
+                             "id": "10025",
+                             "name": "乌鲁木齐",
+                             "cover": "http://cdn.youyuwei.com/o_19vpvm15h12n61tcm1ton1vuvthq9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10025"
+                             },
+                             {
+                             "id": "10030",
+                             "name": "乐山",
+                             "cover": "http://cdn.youyuwei.com/b9337437bbe8b91cc25159fb267c8d76.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10030"
+                             },
+                             {
+                             "id": "10035",
+                             "name": "沈阳",
+                             "cover": "http://cdn.youyuwei.com/a7b51b44842029d9037201a05a6b82ac.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10035"
+                             },
+                             {
+                             "id": "10036",
+                             "name": "杭州",
+                             "cover": "http://cdn.youyuwei.com/o_19vvaa1repcs1di614g88cll1j9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10036"
+                             },
+                             {
+                             "id": "10037",
+                             "name": "哈尔滨",
+                             "cover": "http://cdn.youyuwei.com/o_19igra1mbf3r8d2150ag1clb9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10037"
+                             },
+                             {
+                             "id": "10038",
+                             "name": "桂林",
+                             "cover": "http://cdn.youyuwei.com/o_19vvb76u5sj11arl12hpnj7v4g9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10038"
+                             },
+                             {
+                             "id": "10039",
+                             "name": "南京",
+                             "cover": "http://cdn.youyuwei.com/o_19ih28larg4d1fvo1nin1n6t100s9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10039"
+                             },
+                             {
+                             "id": "10040",
+                             "name": "福州",
+                             "cover": "http://cdn.youyuwei.com/o_19ip24o9n137e11r5tsgoqg1sl59.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10040"
+                             },
+                             {
+                             "id": "10041",
+                             "name": "贵阳",
+                             "cover": "http://cdn.youyuwei.com/o_19ip4envk15hmflv1qa0ugv7u89.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10041"
+                             },
+                             {
+                             "id": "10042",
+                             "name": "镇江",
+                             "cover": "http://cdn.youyuwei.com/o_19j83kce8pfl15gd1mdq11lhn66a.jpg,o_19j83kce8dkj1kvhuv91jb01mqcb.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10042"
+                             },
+                             {
+                             "id": "10047",
+                             "name": "潮州",
+                             "cover": "http://cdn.youyuwei.com/o_19j8gsnnf31c15p73u1fof15d09.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10047"
+                             },
+                             {
+                             "id": "10048",
+                             "name": "广州",
+                             "cover": "http://cdn.youyuwei.com/o_19vn8mehi1pc211ed4d81ao0vmq9.jpg,o_19vn8mmp2146e1ses10mcfhi12boe.jpg,o_19vn8mv05rs9pf11ceaq1n6nj.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10048"
+                             },
+                             {
+                             "id": "10055",
+                             "name": "北京",
+                             "cover": "http://cdn.youyuwei.com/o_19v4ueioc6ht1n5s5fdhqp1fem9.jpg,o_1abkok02asfblesauv1qrg74v9.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10055"
+                             },
+                             {
+                             "id": "10056",
+                             "name": "香港",
+                             "cover": "http://cdn.youyuwei.com/o_1ajo2a6n415ia1qu5173c1vq41e5d9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10056"
+                             },
+                             {
+                             "id": "10058",
+                             "name": "台北",
+                             "cover": "http://cdn.youyuwei.com/o_19ji2p9j112cm1imepua1mbm11079.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10058"
+                             },
+                             {
+                             "id": "10059",
+                             "name": "上海",
+                             "cover": "http://cdn.youyuwei.com/o_19jj903q216ms1ou8eam1koo1urkc.jpg,o_19jj903q21t9fvab1kh88ro1sogd.jpg,o_19oigp5uc1qll15immb81oii1nqv9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10059"
+                             },
+                             {
+                             "id": "10060",
+                             "name": "深圳",
+                             "cover": "http://cdn.youyuwei.com/o_19jkuhf75glq5jc1j78h88ia9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10060"
+                             },
+                             {
+                             "id": "10062",
+                             "name": "武汉",
+                             "cover": "http://cdn.youyuwei.com/o_19jl8983duako8d10m0b9f14t49.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10062"
+                             },
+                             {
+                             "id": "10065",
+                             "name": "伊犁",
+                             "cover": "http://cdn.youyuwei.com/o_19vq09kp5l9it43g18189tji99.jpg,o_19vq09q0v120f17mkn4514a61ac7e.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10065"
+                             },
+                             {
+                             "id": "10066",
+                             "name": "西塘",
+                             "cover": "http://cdn.youyuwei.com/o_19vvbkkk34do5up16gusrjdug9.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10066"
+                             },
+                             {
+                             "id": "10067",
+                             "name": "台中",
+                             "cover": "http://cdn.youyuwei.com/o_19k722pkb1f1um5n18mq1bgksb4a.jpg,o_19k722pkc11qav7tjis1tfak8b.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10067"
+                             },
+                             {
+                             "id": "10068",
+                             "name": "银川",
+                             "cover": "http://cdn.youyuwei.com/o_19vq2a4441d80gt9uj91a1816ab9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10068"
+                             },
+                             {
+                             "id": "10069",
+                             "name": "大理",
+                             "cover": "http://cdn.youyuwei.com/o_19k82jn0v1usq11po1tdmvb7jura.jpg,o_19k82jn0vl4q13139lu1g1hj14b.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10069"
+                             },
+                             {
+                             "id": "10073",
+                             "name": "满洲里",
+                             "cover": "http://cdn.youyuwei.com/o_19vq2dmr8jh6l0fjfi1g8r1dro9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10073"
+                             },
+                             {
+                             "id": "10075",
+                             "name": "兰州",
+                             "cover": "http://cdn.youyuwei.com/o_19vq2gaoh1k5p19vl1a8v16flkud9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10075"
+                             },
+                             {
+                             "id": "10077",
+                             "name": "拉萨",
+                             "cover": "http://cdn.youyuwei.com/o_19khoo2ei1kloagh1sq61vgj1ps49.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10077"
+                             },
+                             {
+                             "id": "10078",
+                             "name": "垦丁",
+                             "cover": "http://cdn.youyuwei.com/o_19kc89c3tlik9vn1jf1jgq1oufa.jpg,o_19kc89c3t1m6r159k1400jrp1agab.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10078"
+                             },
+                             {
+                             "id": "10081",
+                             "name": "成都",
+                             "cover": "http://cdn.youyuwei.com/o_1a017ctm5bpp1qbqen1l4t14349.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10081"
+                             },
+                             {
+                             "id": "10083",
+                             "name": "大连",
+                             "cover": "http://cdn.youyuwei.com/o_19kcs39mq1lubetn1rfvl3dliga.jpg,o_19kcs39mq3cq2vbp5o16imdonb.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10083"
+                             },
+                             {
+                             "id": "10089",
+                             "name": "开封",
+                             "cover": "http://cdn.youyuwei.com/o_19vq3825p1ocl1u3f17hf5kb1n9u9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10089"
+                             },
+                             {
+                             "id": "10090",
+                             "name": "敦煌",
+                             "cover": "http://cdn.youyuwei.com/o_19vq3o8uk9fj1r2116mc1357h2o9.jpg,o_19vq3obf81fn5apu1f9812c272ke.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10090"
+                             },
+                             {
+                             "id": "10091",
+                             "name": "苏州",
+                             "cover": "http://cdn.youyuwei.com/o_19khdih0p1n16i6mknjajk35a9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10091"
+                             },
+                             {
+                             "id": "10092",
+                             "name": "平遥",
+                             "cover": "http://cdn.youyuwei.com/o_19o5610kjq351sdnie819jge3c9.jpg,o_19o561d8n17se1bcq9jvt2kh8te.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10092"
+                             },
+                             {
+                             "id": "10096",
+                             "name": "海口",
+                             "cover": "http://cdn.youyuwei.com/o_19kjtptu6rjm1oag59h1foa7kd9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10096"
+                             },
+                             {
+                             "id": "10097",
+                             "name": "九寨沟",
+                             "cover": "http://cdn.youyuwei.com/o_19kjvdqc4tbqd7mr3jo3a11r1a.jpg,o_19kjvdqc44l2smqg9qk5118ob.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10097"
+                             },
+                             {
+                             "id": "10099",
+                             "name": "南昌",
+                             "cover": "http://cdn.youyuwei.com/o_1amdp7f3q1cr18781h8arqop3i9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10099"
+                             },
+                             {
+                             "id": "10100",
+                             "name": "张掖",
+                             "cover": "http://cdn.youyuwei.com/o_19vq43al6jsola1dni1i5munl9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10100"
+                             },
+                             {
+                             "id": "10101",
+                             "name": "烟台",
+                             "cover": "http://cdn.youyuwei.com/o_19vq46mh41ec61n491cilocv1ouf9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10101"
+                             },
+                             {
+                             "id": "10102",
+                             "name": "北海",
+                             "cover": "http://cdn.youyuwei.com/o_19km6dnqm1ibd18bb6uh1355154c9.jpg,o_19km6e7qfj1k8fkoue11i81h6je.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10102"
+                             },
+                             {
+                             "id": "10103",
+                             "name": "日照",
+                             "cover": "http://cdn.youyuwei.com/o_19km6nlno16obdse1psl1aaj19l49.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10103"
+                             },
+                             {
+                             "id": "10104",
+                             "name": "天津",
+                             "cover": "http://cdn.youyuwei.com/o_19km9cv2scdc1fcrafl3dj1oc59.jpg,o_19km9d64gdd5egi3e7ucofjfe.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10104"
+                             },
+                             {
+                             "id": "10110",
+                             "name": "绍兴",
+                             "cover": "http://cdn.youyuwei.com/o_19l3ibqunfrl10cs1e9d44h1ccjb.jpg,o_19l3ibqun4ih169jveefp616jqc.jpg,o_19l3ibquoruk17e664l1jri11jcd.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10110"
+                             },
+                             {
+                             "id": "10114",
+                             "name": "济南",
+                             "cover": "http://cdn.youyuwei.com/o_19vq4qgh31ljca501dhbmgk19949.jpg,o_19vq4r2lptm52l8196thv3qaie.jpg,o_19vq4r5ct2ar4851c5o12hc15s6j.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10114"
+                             },
+                             {
+                             "id": "10115",
+                             "name": "扬州",
+                             "cover": "http://cdn.youyuwei.com/o_19vvalr3tqgn1tispp51ctd17lm9.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10115"
+                             },
+                             {
+                             "id": "10117",
+                             "name": "珠海",
+                             "cover": "http://cdn.youyuwei.com/o_19lloskea1bgticuj1oqlub8a9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10117"
+                             },
+                             {
+                             "id": "10118",
+                             "name": "乌镇",
+                             "cover": "http://cdn.youyuwei.com/o_19lno3c3islr127ts5j1io8133g9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10118"
+                             },
+                             {
+                             "id": "10121",
+                             "name": "西宁",
+                             "cover": "http://cdn.youyuwei.com/o_19vq5ho1fk5tv451tar1du8ceu9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10121"
+                             },
+                             {
+                             "id": "10124",
+                             "name": "太原",
+                             "cover": "http://cdn.youyuwei.com/o_19vq5m5v1s2112a611b31jlrobp9.jpg,o_19vq5m8uqun19qee4hq63paqe.jpg,o_19vq5mc3k6fsf6k8hu1eqv1j5bj.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10124"
+                             },
+                             {
+                             "id": "10126",
+                             "name": "丽江",
+                             "cover": "http://cdn.youyuwei.com/o_19m9nqge41ia69jvuvhu4i8q3a.jpg,o_19m9nqge416fltb61hkspe21uvvb.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10126"
+                             },
+                             {
+                             "id": "10131",
+                             "name": "宏村",
+                             "cover": "http://cdn.youyuwei.com/o_19mmfblhm1tal1tia16dn186h1c459.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10131"
+                             },
+                             {
+                             "id": "10132",
+                             "name": "承德",
+                             "cover": "http://cdn.youyuwei.com/o_19mmgl3s31e38bb5qdg1q2o13mf9.jpg,o_19mmgloj81c8f1f1okfn1h0intbf.jpg,o_19mmgloj9amn1tp31b4k1v2s16irg.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10132"
+                             },
+                             {
+                             "id": "10133",
+                             "name": "林芝",
+                             "cover": "http://cdn.youyuwei.com/o_19mmgp1qb3umu093ho1ks31vl09.jpg,o_19mmgpdi0134ou48psc1pqg19q9e.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10133"
+                             },
+                             {
+                             "id": "10134",
+                             "name": "泰山",
+                             "cover": "http://cdn.youyuwei.com/o_19mmosn4fp5l1nq2n3trsfqah9.jpg,o_19mmoss2bmvdlml19mg19a310lde.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10134"
+                             },
+                             {
+                             "id": "10136",
+                             "name": "稻城",
+                             "cover": "http://cdn.youyuwei.com/o_19mms0sp31ltn168iefn18i41bqdb.jpg,o_19mms0sp3eubr9c1qdo1v481s0ic.jpg,o_19mms0sp310kr10c7n1ntn1j7rd.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10136"
+                             },
+                             {
+                             "id": "10137",
+                             "name": "盘锦",
+                             "cover": "http://cdn.youyuwei.com/o_19mmtm0b815bev731p551hde2gp9.jpg,o_19mmtm5banj212t4e6tr12aje.jpg,o_19mmtm9qe17oipml1ntmhnbfnjj.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10137"
+                             },
+                             {
+                             "id": "10139",
+                             "name": "连云港",
+                             "cover": "http://cdn.youyuwei.com/o_19mplmtmpshd101n11rprq4133s9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10139"
+                             },
+                             {
+                             "id": "10140",
+                             "name": "都江堰",
+                             "cover": "http://cdn.youyuwei.com/o_19mn1pgsr1ffh1md4a0pn97rqma.jpg,o_19mn1pgsr8sfg9p1ln41eki1cktb.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10140"
+                             },
+                             {
+                             "id": "10141",
+                             "name": "腾冲",
+                             "cover": "http://cdn.youyuwei.com/o_19mn419at3hi1n0e1b2o18671tap9.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10141"
+                             },
+                             {
+                             "id": "10143",
+                             "name": "南宁",
+                             "cover": "http://cdn.youyuwei.com/o_19mn4o2091602olk1ip91opj1ied9.jpg,o_19mn4o7sbt7250ke601q05phge.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10143"
+                             },
+                             {
+                             "id": "10144",
+                             "name": "郑州",
+                             "cover": "http://cdn.youyuwei.com/o_19vq5vohh1ep91truhgfu49l139.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10144"
+                             },
+                             {
+                             "id": "10145",
+                             "name": "泉州",
+                             "cover": "http://cdn.youyuwei.com/o_19mn9fb1he40qsfo7s1u2c1me39.jpg,o_19mn9fgbr4725snsc61e3u7ude.jpg,o_19mn9oor9k5f1meehp419b3v499.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10145"
+                             },
+                             {
+                             "id": "10146",
+                             "name": "天水",
+                             "cover": "http://cdn.youyuwei.com/o_19vq62sju1bq7bsdb6f1q061aal9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10146"
+                             },
+                             {
+                             "id": "10147",
+                             "name": "丰宁坝上",
+                             "cover": "http://cdn.youyuwei.com/o_19mnd9fbvfdsddnbsu1e5aa4ja.jpg,o_19mnd9fc01kvo1rto1ked1f3m1fmpb.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10147"
+                             },
+                             {
+                             "id": "10148",
+                             "name": "武夷山",
+                             "cover": "http://cdn.youyuwei.com/o_19mp2u9e9ublir31nj1rmpd3b9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10148"
+                             },
+                             {
+                             "id": "10149",
+                             "name": "甘南",
+                             "cover": "http://cdn.youyuwei.com/o_19mp3m2d05ssekaumutugvrib.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10149"
+                             },
+                             {
+                             "id": "10150",
+                             "name": "九份",
+                             "cover": "http://cdn.youyuwei.com/o_19mp4qvok1sl7m8lhu8183hc5r9.jpg,o_19mp4r7fem0cist10tf10vv15ece.jpg,o_19mp4rbit1dil1o3d1dbc4k1qc1j.jpg,o_19mp4rfpqncq1ajllg61ibp1ft7o.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10150"
+                             },
+                             {
+                             "id": "10151",
+                             "name": "宁波",
+                             "cover": "http://cdn.youyuwei.com/o_19mp57ftvgqdr911dhbdq19lj9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10151"
+                             },
+                             {
+                             "id": "10152",
+                             "name": "西昌",
+                             "cover": "http://cdn.youyuwei.com/o_19mpa8n6bd3h11u8n6a11kk1asc9.jpg,o_19mpa8qqh17cns2513befkl1i7ee.jpg,o_19mpa8uq716ng1futk041bk0lrgj.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10152"
+                             },
+                             {
+                             "id": "10153",
+                             "name": "高雄",
+                             "cover": "http://cdn.youyuwei.com/o_19mp826ft18f51v7r1r4u1u81b62a.jpg,o_19mp826fthdd14dokh512t52mdb.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10153"
+                             },
+                             {
+                             "id": "10154",
+                             "name": "张家界",
+                             "cover": "http://cdn.youyuwei.com/o_19mpd25ps1qc01fi71cpcvtf1q3s9.jpeg,o_19mpd2edm4ur18tq10eg1l3a1atfe.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10154"
+                             },
+                             {
+                             "id": "10155",
+                             "name": "周庄",
+                             "cover": "http://cdn.youyuwei.com/o_19mpgdjdt1uon140i66g1c831q0s9.jpg,o_19mpgdqg81uui34evib40s1dm6e.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10155"
+                             },
+                             {
+                             "id": "10156",
+                             "name": "漠河",
+                             "cover": "http://cdn.youyuwei.com/o_19mphrh4ehs01a73jii1oc91k8va.jpg,o_19mphrh4en02198gn0o1eotkgab.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10156"
+                             },
+                             {
+                             "id": "10157",
+                             "name": "长春",
+                             "cover": "http://cdn.youyuwei.com/o_19mpi5o0dulg5ds1o481tmnnkk9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10157"
+                             },
+                             {
+                             "id": "10160",
+                             "name": "千岛湖",
+                             "cover": "http://cdn.youyuwei.com/o_19mrksf7ocia3ad1knbb8g1tn79.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10160"
+                             },
+                             {
+                             "id": "10162",
+                             "name": "丹东",
+                             "cover": "http://cdn.youyuwei.com/o_19ms49sb9t0c11ujbknt1v102g9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10162"
+                             },
+                             {
+                             "id": "10163",
+                             "name": "舟山",
+                             "cover": "http://cdn.youyuwei.com/o_19ms9c9juj0e15l41rei1hddvu39.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10163"
+                             },
+                             {
+                             "id": "10164",
+                             "name": "西双版纳",
+                             "cover": "http://cdn.youyuwei.com/o_19mu6t3kcvmo1cvro9cg6q15389.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10164"
+                             },
+                             {
+                             "id": "10165",
+                             "name": "雪乡",
+                             "cover": "http://cdn.youyuwei.com/o_19mub8grps51uprum4ugv58n9.jpg,o_19mub8qncnkk13qt8froqbdcie.jpg,o_19mub8v3a1c1mv36122e1tt9lmj.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10165"
+                             },
+                             {
+                             "id": "10171",
+                             "name": "遵义",
+                             "cover": "http://cdn.youyuwei.com/o_19n8l4rhu1jfqhj8bu914dtmiq9.jpg,o_19n8l5299noa1gb9cdh1ta3273e.jpg,o_19n8l584t12itkg815c016fu3ljj.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10171"
+                             },
+                             {
+                             "id": "10179",
+                             "name": "霞浦",
+                             "cover": "http://cdn.youyuwei.com/o_19ngm0n6e1tvs1ql8jmm1qng1rpt9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10179"
+                             },
+                             {
+                             "id": "10180",
+                             "name": "三清山",
+                             "cover": "http://cdn.youyuwei.com/o_19ngovc5lmbna4f180e1qsp111k9.jpg,o_19ngovh5bdip1hoq1vkc9asusge.jpg,o_19ngovl3jofg1vh51cq4ash13t0j.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10180"
+                             },
+                             {
+                             "id": "10188",
+                             "name": "北戴河",
+                             "cover": "http://cdn.youyuwei.com/o_19ntdhsht11ad1o2d14u11hoglvj9.jpeg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10188"
+                             },
+                             {
+                             "id": "10190",
+                             "name": "宣城",
+                             "cover": "http://cdn.youyuwei.com/o_19o0a5fvk41kgo8i2j1m0qkbu9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10190"
+                             },
+                             {
+                             "id": "10191",
+                             "name": "额济纳旗",
+                             "cover": "http://cdn.youyuwei.com/o_19o0fseo4klem2p1aba9i8kccb.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10191"
+                             },
+                             {
+                             "id": "10192",
+                             "name": "佛山",
+                             "cover": "http://cdn.youyuwei.com/o_19o27rtr7u921grf1tukc9h1hoba.jpg,o_19o27rtr81ja214n213mt15dg1tn6b.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10192"
+                             },
+                             {
+                             "id": "10194",
+                             "name": "束河古镇",
+                             "cover": "http://cdn.youyuwei.com/o_19o4tl7di1rrgav1klhd6s63v9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10194"
+                             },
+                             {
+                             "id": "10198",
+                             "name": "黄果树",
+                             "cover": "http://cdn.youyuwei.com/o_19ofbid6d8d51650ng11l3a18el9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10198"
+                             },
+                             {
+                             "id": "10199",
+                             "name": "婺源",
+                             "cover": "http://cdn.youyuwei.com/o_19ofig9fcmj1osgg5t16kp16vr9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10199"
+                             },
+                             {
+                             "id": "10202",
+                             "name": "花莲",
+                             "cover": "http://cdn.youyuwei.com/o_19ohmbge9ro515i8jss1nr3tom9.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10202"
+                             },
+                             {
+                             "id": "10216",
+                             "name": "海螺沟",
+                             "cover": "http://cdn.youyuwei.com/o_19oute3jel5714gq1s6kv3h1g7ma.jpg,o_19oute3je1ga81cbmbcqbmk1njbb.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10216"
+                             },
+                             {
+                             "id": "10221",
+                             "name": "石家庄",
+                             "cover": "http://cdn.youyuwei.com/o_19rrcrsh61cj41dff1cdc1026vbga.jpg,o_19rrcrsh6kls3eou77m0kib.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10221"
+                             },
+                             {
+                             "id": "10223",
+                             "name": "呼伦贝尔",
+                             "cover": "http://cdn.youyuwei.com/o_19rrufq61emkrpf1c30ri3adu9.jpg,o_19rrugq41fh5n4s11101pd71gk9e.jpg,o_19rruh4o51n8811f0of13q71uqoj.jpg,o_19rruhkqehm1mpafh1l521s4ho.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10223"
+                             },
+                             {
+                             "id": "10279",
+                             "name": "昆明",
+                             "cover": "http://cdn.youyuwei.com/o_1a7208gm11l9b1k3v12pm57u17rgb.jpg,o_1a7208gm2rij12vkft0fa1abfc.jpg,o_1a7208gm2e4c17sdskikl019lid.jpg?imageView2/1/w/400/h/400",
+                             "url": "yuwei://city/10279"
+                             }
+                             ],
+                 "more_url": "yuwei://country/中国"
+                 }
+                 ]
+    },
+    "is_array": 1
+}

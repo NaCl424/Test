@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="A6O-ut-OP2" customClass="CityListView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="杭州" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4b1-1e-Fgc">
+                    <rect key="frame" x="0.0" y="10" width="600" height="50"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="I4E-Cl-aRK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hangzhou" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hij-Ec-aYO">
+                    <rect key="frame" x="0.0" y="60" width="600" height="50"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="city_new_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="x76-Ga-0Qi">
+                    <rect key="frame" x="210" y="515" width="180" height="25"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="180" id="NoJ-GA-0Le"/>
+                        <constraint firstAttribute="height" constant="25" id="Qvc-0I-eHD"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上划查看餐厅列表" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="la7-95-cjR">
+                    <rect key="frame" x="210" y="515" width="180" height="25"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="4b1-1e-Fgc" firstAttribute="centerX" secondItem="A6O-ut-OP2" secondAttribute="centerX" id="0hr-6m-0yS"/>
+                <constraint firstItem="4b1-1e-Fgc" firstAttribute="top" secondItem="A6O-ut-OP2" secondAttribute="top" constant="10" id="1xm-4w-ncJ"/>
+                <constraint firstItem="hij-Ec-aYO" firstAttribute="centerX" secondItem="A6O-ut-OP2" secondAttribute="centerX" id="7ET-ZZ-mBn"/>
+                <constraint firstItem="hij-Ec-aYO" firstAttribute="top" secondItem="4b1-1e-Fgc" secondAttribute="bottom" id="DSY-YG-VUp"/>
+                <constraint firstAttribute="bottom" secondItem="la7-95-cjR" secondAttribute="bottom" constant="60" id="FzB-w3-dqa"/>
+                <constraint firstAttribute="trailing" secondItem="4b1-1e-Fgc" secondAttribute="trailing" id="PRF-s8-kug"/>
+                <constraint firstAttribute="bottom" secondItem="x76-Ga-0Qi" secondAttribute="bottom" constant="60" id="QS4-8X-aKz"/>
+                <constraint firstItem="hij-Ec-aYO" firstAttribute="width" secondItem="4b1-1e-Fgc" secondAttribute="width" id="SV4-ap-o0F"/>
+                <constraint firstItem="la7-95-cjR" firstAttribute="centerX" secondItem="A6O-ut-OP2" secondAttribute="centerX" id="X9Q-gf-7Xh"/>
+                <constraint firstItem="4b1-1e-Fgc" firstAttribute="leading" secondItem="A6O-ut-OP2" secondAttribute="leading" id="amC-ih-lpb"/>
+                <constraint firstItem="la7-95-cjR" firstAttribute="height" secondItem="x76-Ga-0Qi" secondAttribute="height" id="f7x-57-scL"/>
+                <constraint firstItem="la7-95-cjR" firstAttribute="width" secondItem="x76-Ga-0Qi" secondAttribute="width" id="k1k-mx-beM"/>
+                <constraint firstItem="x76-Ga-0Qi" firstAttribute="centerX" secondItem="A6O-ut-OP2" secondAttribute="centerX" id="nfx-BC-0ub"/>
+                <constraint firstItem="hij-Ec-aYO" firstAttribute="height" secondItem="4b1-1e-Fgc" secondAttribute="height" id="zRW-Ef-6nj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cityNewImageView" destination="x76-Ga-0Qi" id="zZa-qj-teM"/>
+                <outlet property="cityNewLabel" destination="la7-95-cjR" id="TqQ-Ie-RRN"/>
+                <outlet property="englishName" destination="hij-Ec-aYO" id="tyV-cl-UhJ"/>
+                <outlet property="name" destination="4b1-1e-Fgc" id="Uan-qR-3Se"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="city_new_1.png" width="226" height="26"/>
+    </resources>
+</document>

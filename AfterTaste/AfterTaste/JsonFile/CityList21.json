@@ -1,0 +1,55 @@
+{
+    "data": {
+        "list": [
+                 {
+                 "cityname": "杭州",
+                 "name": "西湖藕粉",
+                 "sum": "细滑的西湖藕粉，旧时是专为皇家所供的“贡粉”，也是不可多得的杭州美食！",
+                 "id": "10645",
+                 "url": "yuwei://mustdish/10645",
+                 "cover": "http://cdn.youyuwei.com/o_19u3b2hgs1e5103hnkh1cgi12e09.jpg?imageView2/1/w/369/h/276"
+                 },
+                 {
+                 "cityname": "杭州",
+                 "name": "鲜肉小笼",
+                 "sum": "皮薄馅厚，汤汁饱满，必要一尝的杭州美食。",
+                 "id": "10644",
+                 "url": "yuwei://mustdish/10644",
+                 "cover": "http://cdn.youyuwei.com/o_19u3aqqa71gsq1a471k1vaet19209.jpg?imageView2/1/w/369/h/276"
+                 },
+                 {
+                 "cityname": "杭州",
+                 "name": "西湖醋鱼",
+                 "sum": "杭州美食中的风味名菜，年代虽然久远但名声丝毫不减。",
+                 "id": "10216",
+                 "url": "yuwei://mustdish/10216",
+                 "cover": "http://cdn.youyuwei.com/o_19tk9tc6h1ole9i8oad1pst1l579.jpg?imageView2/1/w/369/h/276"
+                 },
+                 {
+                 "cityname": "杭州",
+                 "name": "叫花鸡",
+                 "sum": "杭州美食叫花鸡，肉质细腻鲜嫩，鲜甜清香。",
+                 "id": "10204",
+                 "url": "yuwei://mustdish/10204",
+                 "cover": "http://cdn.youyuwei.com/o_19tk9a9brqfrdfhc5m1g8ah09.jpg?imageView2/1/w/369/h/276"
+                 },
+                 {
+                 "cityname": "杭州",
+                 "name": "龙井虾仁",
+                 "sum": "只有在这座清雅古城才能创作出来的清雅杭州美食。",
+                 "id": "10199",
+                 "url": "yuwei://mustdish/10199",
+                 "cover": "http://cdn.youyuwei.com/o_19tk8njsepn41bjc1n933bk1f5e9.jpg?imageView2/1/w/369/h/276"
+                 },
+                 {
+                 "cityname": "杭州",
+                 "name": "片儿川",
+                 "sum": "杭州美食——片儿川肉红、菜绿，色泽分明，引人食欲。",
+                 "id": "10126",
+                 "url": "yuwei://mustdish/10126",
+                 "cover": "http://cdn.youyuwei.com/o_19tk2q0gs1hk21mq61m8t1epm1dqt9.jpg?imageView2/1/w/369/h/276"
+                 }
+                 ]
+    },
+    "is_array": 1
+}

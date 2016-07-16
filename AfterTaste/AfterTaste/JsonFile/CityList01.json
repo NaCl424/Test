@@ -1,0 +1,55 @@
+{
+    "data": {
+        "list": [
+                 {
+                 "cityname": "大阪",
+                 "name": "大阪烧",
+                 "sum": "分为关西风和广岛风两种。其特色在于食材可自由搭配，看你自己喜欢。",
+                 "id": "10296",
+                 "url": "yuwei://mustdish/10296",
+                 "cover": "http://cdn.youyuwei.com/o_19tmvc403hl13si1ou41p14p4f9.jpg?imageView2/1/w/369/h/276"
+                 },
+                 {
+                 "cityname": "大阪",
+                 "name": "章鱼烧",
+                 "sum": "也叫章鱼小丸子，是最有大阪特色、家喻户晓的国粹小吃，令人垂涎欲滴。",
+                 "id": "10292",
+                 "url": "yuwei://mustdish/10292",
+                 "cover": "http://cdn.youyuwei.com/o_19tmmqab7dhu183o67a1n5h11ql9.jpg?imageView2/1/w/369/h/276"
+                 },
+                 {
+                 "cityname": "大阪",
+                 "name": "蟹料理",
+                 "sum": "蟹料理在日本可谓登峰造极，蟹的鲜美在料理师手中被演绎成了味觉艺术。",
+                 "id": "10293",
+                 "url": "yuwei://mustdish/10293",
+                 "cover": "http://cdn.youyuwei.com/o_19tmn04f4cpf5ob1tme1ba7q6l9.jpg?imageView2/1/w/369/h/276"
+                 },
+                 {
+                 "cityname": "大阪",
+                 "name": "炸串",
+                 "sum": "一种很受欢迎的平民料理。虽是油炸的但沾上各种酱之后，一点不会油腻。",
+                 "id": "10295",
+                 "url": "yuwei://mustdish/10295",
+                 "cover": "http://cdn.youyuwei.com/o_19tmud9hinalqmj1cim12641ktm9.jpg?imageView2/1/w/369/h/276"
+                 },
+                 {
+                 "cityname": "大阪",
+                 "name": "河豚料理",
+                 "sum": "河豚虽美，食之不易。河豚料理是道高级的料理，要去专业的料理店吃。",
+                 "id": "10294",
+                 "url": "yuwei://mustdish/10294",
+                 "cover": "http://cdn.youyuwei.com/o_19tmn8cqke8r5jd104b12iih879.jpg?imageView2/1/w/369/h/276"
+                 },
+                 {
+                 "cityname": "大阪",
+                 "name": "日式拉面",
+                 "sum": "一种代表性的大众面食。地道的日式拉面一定有一碗鲜汤和筋道的面条。",
+                 "id": "10297",
+                 "url": "yuwei://mustdish/10297",
+                 "cover": "http://cdn.youyuwei.com/o_19tmvnq33h1v159a1r9v16k87h39.jpg?imageView2/1/w/369/h/276"
+                 }
+                 ]
+    },
+    "is_array": 1
+}

@@ -1,0 +1,65 @@
+{
+    "data": {
+        "list": [
+                 {
+                 "type": "zn",
+                 "title": "美食指南",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "http://www.youyuwei.com/etiquette/10003"
+                 },
+                 {
+                 "type": "ts",
+                 "title": "必吃美食",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://mustdishlist/10003"
+                 },
+                 {
+                 "type": "jp",
+                 "title": "必去餐厅",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://restrefined/10003"
+                 },
+                 {
+                 "type": "fy",
+                 "title": "在线翻译",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://translate/日语"
+                 },
+                 {
+                 "type": "dt",
+                 "title": "美食地图",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://restlist/10003?type=1"
+                 },
+                 {
+                 "type": "jd",
+                 "title": "食在景点",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://scenery/10003"
+                 }
+                 ],
+        "cityinfo": {
+            "lng": "135.563056",
+            "lat": "34.641389",
+            "state": "亚洲",
+            "in_china": 0,
+            "language": "日语",
+            "cover": "http://cdn.youyuwei.com/o_19vps87bru7ij24vjt1ooud0u9.jpg?imageMogr2/blur/20x10",
+            "id": "10003",
+            "name": "大阪",
+            "en": "Osaka",
+            "province": "大阪府",
+            "country": "日本",
+            "sum": "日本美食之都，当地人常自称大阪为“天下第一厨房”，各国菜式应有尽有。",
+            "desc": "大阪是讲究吃的城市，日语里的“Kuidaore”的字面意思是“吃不倒不罢休”或“吃到再也吃不下为止”，比喻大阪酷爱饮食的文化。大阪的厨师对自己的厨艺感到自豪。他们讲究用料、精挑细选，以便展示其过人的烹饪技艺。同样，大阪人认为吃是一种极大的享受，总渴望吃上一顿美味嘉肴。于是，大阪有了上乘的食品。除了老字号的怀石菜，还有大阪寿司、海鲜火锅等，美味小吃更是数不胜数。大阪著名螃蟹火锅是不能不尝的，不仅肉味鲜美、入口爽滑，吃法也颇为讲究。另外，火锅的材料还会依照不同的季节而调整。从一开始，大阪就富有开创精神，致使人们对烹饪技术的要求越来越高。手艺绝佳的厨师和餐馆老板总是勇於采用富有创意的新方法，创造出了许多独具风味的菜色和做工精美的美味佳肴。在日本，料理主要分为关东料理和关西料理两大类。关东料理以东京料理为主，关西料理包括京都和大阪料理。由于关东、关西的历史发展和传统一向不同，分别形成自己的风俗民情与饮食文化。主要差异就好比我们北方的豆腐脑是咸的，而南方的豆腐脑是甜的一样，关东料理口味比较重，关西料理口味则比较清淡、量少而精致。关西料理的特点是口味清淡，可以吃出鲜味。由于依靠濑户内海的原因，关西料理使用的原料好，海产的味道好，同时关西的水质也比关东好，生产出的蔬菜味道也好。大阪美食那繁多的菜品，凝聚着日本传统美食的精华。",
+            "keyword": "美食之都"
+        }
+    },
+    "is_array": 1
+}

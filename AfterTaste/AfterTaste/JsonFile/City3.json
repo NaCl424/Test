@@ -1,0 +1,65 @@
+{
+    "data": {
+        "list": [
+                 {
+                 "type": "zn",
+                 "title": "美食指南",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "http://www.youyuwei.com/etiquette/10036"
+                 },
+                 {
+                 "type": "ts",
+                 "title": "必吃美食",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://mustdishlist/10036"
+                 },
+                 {
+                 "type": "jp",
+                 "title": "必去餐厅",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://restrefined/10036"
+                 },
+                 {
+                 "type": "fy",
+                 "title": "在线翻译",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 0,
+                 "url": "yuwei://translate/"
+                 },
+                 {
+                 "type": "dt",
+                 "title": "美食地图",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://restlist/10036?type=1"
+                 },
+                 {
+                 "type": "jd",
+                 "title": "食在景点",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://scenery/10036"
+                 }
+                 ],
+        "cityinfo": {
+            "lng": "120.2128814295",
+            "lat": "30.2531558465",
+            "state": "亚洲",
+            "in_china": 1,
+            "language": "",
+            "cover": "http://cdn.youyuwei.com/o_19vvaa1repcs1di614g88cll1j9.jpg?imageMogr2/blur/20x10",
+            "id": "10036",
+            "name": "杭州",
+            "en": "hangzhou",
+            "province": "浙江省",
+            "country": "中国",
+            "sum": "如西子湖般灵动的味觉之感",
+            "desc": "品味杭州，不只是在秀丽灵动的优美山水，杭州的浪漫，华美，杭州人的闲适，风雅，在衣鬓飘香的棉丝华服，更在绿茶的飘渺清香，咖啡的香气四溢，色泽玉润的美酒佳肴。\n从杭州金碧辉煌、高朋满座、会食盈门的酒楼，从古色古香、隔帘花影的茶馆，从幽静诗意、烛光曳曳的咖啡馆和酒吧，都能品出杭州的风土人情、文化蕴含和市民素养，品味从中传达出的这座城市的精神，精致，和谐，大气，开放。杭州美食融入了西湖特有的清醇灵秀之风，兼容并蓄，博采众长。\n一直以清淡、雅致出名，杭州美食在制作时都会选用最新鲜的菜，而且制作过程十分精细。杭州人十分注意营养，做的菜都是力求营养最大化，鲜嫩不油腻。杭州菜历史上分为“湖上”、“城厢”两个流派。前者用料以鱼虾和禽类为主，擅长生炒、清炖、嫩熘等技法，讲究清、鲜、脆、嫩的口味，注重保留原汁原味。后者用料以肉类居多，烹调方法以蒸、烩、氽、烧为主，讲究轻油、轻浆、清淡鲜嫩的口味，注重鲜咸合一。这一份江南水乡的清新淡雅，没有不心动的理由。",
+            "keyword": "杭帮菜、鲜"
+        }
+    },
+    "is_array": 1
+}

@@ -1,0 +1,139 @@
+{
+    "data": {
+        "list": [
+                 {
+                 "id": "10003",
+                 "name": "大阪",
+                 "province": "大阪府",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "135.563056",
+                 "lat": "34.641389",
+                 "summary": "日本美食之都，当地人常自称大阪为“天下第一厨房”，各国菜式应有尽有。",
+                 "cover": "http://cdn.youyuwei.com/o_19vps87bru7ij24vjt1ooud0u9.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10003"
+                 },
+                 {
+                 "id": "10049",
+                 "name": "冲绳",
+                 "province": "冲绳县",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "127.679158",
+                 "lat": "26.212285",
+                 "summary": "琉球故地的味觉记忆",
+                 "cover": "http://cdn.youyuwei.com/o_19vpsim602mmm4h1dq81jtq15m69.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10049"
+                 },
+                 {
+                 "id": "10053",
+                 "name": "东京",
+                 "province": "东京都",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "138.066667",
+                 "lat": "34.133333",
+                 "summary": "日料爱好者的天堂",
+                 "cover": "http://cdn.youyuwei.com/o_19vpsp0msr8g1hun36h1nm81cv49.jpeg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10053"
+                 },
+                 {
+                 "id": "10079",
+                 "name": "京都",
+                 "province": "京都府",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "135.756916",
+                 "lat": "34.98578",
+                 "summary": "米其林日料的宠儿，精致细腻的旧时都城",
+                 "cover": "http://cdn.youyuwei.com/o_19vpt83vjfcseni147e1c781ofs9.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10079"
+                 },
+                 {
+                 "id": "10093",
+                 "name": "札幌",
+                 "province": "北海道",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "141.35",
+                 "lat": "43.05",
+                 "summary": "初雪般的浪漫，饕餮吃货的天堂",
+                 "cover": "http://cdn.youyuwei.com/o_19vptccmf1mul8s81c7bk60opc9.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10093"
+                 },
+                 {
+                 "id": "10211",
+                 "name": "箱根",
+                 "province": "神奈川县",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "139.031441",
+                 "lat": "35.232351",
+                 "summary": "日本的温泉之乡",
+                 "cover": "http://cdn.youyuwei.com/o_19vptgdma4kp1ri8njqv371vld9.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10211"
+                 },
+                 {
+                 "id": "10224",
+                 "name": "神户",
+                 "province": "兵库县",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "135.1907",
+                 "lat": "34.6943",
+                 "summary": "堪称美食天堂的第一人工岛",
+                 "cover": "http://cdn.youyuwei.com/o_19vptimn71sn617l412to1ip2bq9.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10224"
+                 },
+                 {
+                 "id": "10225",
+                 "name": "奈良",
+                 "province": "奈良县",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "135.8847681",
+                 "lat": "34.3203467",
+                 "summary": "世界文化遗产与美食的饕餮圣地",
+                 "cover": "http://cdn.youyuwei.com/o_19vptmepg1mlffgnujq3c1d909.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10225"
+                 },
+                 {
+                 "id": "10231",
+                 "name": "福冈县",
+                 "province": "福冈县",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "130.6803498",
+                 "lat": "33.5002043",
+                 "summary": "海鲜味美，食在福冈",
+                 "cover": "http://cdn.youyuwei.com/o_1a0a5okmq1oveme7f1niljon9.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10231"
+                 },
+                 {
+                 "id": "10230",
+                 "name": "名古屋",
+                 "province": "爱知县",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "136.9242024",
+                 "lat": "35.1443498",
+                 "summary": "历史风味浓厚，鸡肉美食天堂",
+                 "cover": "http://cdn.youyuwei.com/o_19vv7gju41qlnl6cu1q1old6un9.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10230"
+                 },
+                 {
+                 "id": "10237",
+                 "name": "横滨",
+                 "province": "神奈川县",
+                 "country": "日本",
+                 "state": "亚洲",
+                 "lng": "139.5774264",
+                 "lat": "35.4600091",
+                 "summary": "全日本的中华美食天堂",
+                 "cover": "http://cdn.youyuwei.com/o_1a2pe6fm843d7na13ruqoimt49.jpg?imageView2/1/w/300/h/300",
+                 "url": "yuwei://city/10237"
+                 }
+                 ]
+    },
+    "is_array": 1
+}

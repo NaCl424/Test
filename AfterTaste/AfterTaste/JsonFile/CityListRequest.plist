@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>CityList11</string>
+		<string>CityList12</string>
+		<string>CityList13</string>
+		<string>CityList14</string>
+		<string>CityList15</string>
+		<string>CityList16</string>
+	</array>
+	<string>CityList12</string>
+	<string>CityList13</string>
+	<string>CityList14</string>
+	<string>CityList15</string>
+	<string>CityList16</string>
+</array>
+</plist>

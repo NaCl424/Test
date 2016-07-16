@@ -1,0 +1,65 @@
+{
+    "data": {
+        "list": [
+                 {
+                 "type": "zn",
+                 "title": "美食指南",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "http://www.youyuwei.com/etiquette/10055"
+                 },
+                 {
+                 "type": "ts",
+                 "title": "必吃美食",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://mustdishlist/10055"
+                 },
+                 {
+                 "type": "jp",
+                 "title": "必去餐厅",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://restrefined/10055"
+                 },
+                 {
+                 "type": "fy",
+                 "title": "在线翻译",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 0,
+                 "url": "yuwei://translate/中文"
+                 },
+                 {
+                 "type": "dt",
+                 "title": "美食地图",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://restlist/10055?type=1"
+                 },
+                 {
+                 "type": "jd",
+                 "title": "食在景点",
+                 "img": "http://cdn.youyuwei.com/o_1a9ttvkdivvp1nc9mnovdsa7q9.png",
+                 "isdisplay": 1,
+                 "url": "yuwei://scenery/10055"
+                 }
+                 ],
+        "cityinfo": {
+            "lng": "116.400146",
+            "lat": "39.89288",
+            "state": "亚洲",
+            "in_china": 1,
+            "language": "中文",
+            "cover": "http://cdn.youyuwei.com/o_19v4ueioc6ht1n5s5fdhqp1fem9.jpg?imageMogr2/blur/20x10",
+            "id": "10055",
+            "name": "北京",
+            "en": "",
+            "province": "北京市",
+            "country": "中国",
+            "sum": "荟萃全国美味，传承明清百年珍馐",
+            "desc": "北京是一座包容万象、海纳百川的城市。三千年的历史，六朝古都，北京荟萃了自元明清以来的中华文化，聚集了众多名胜古迹和人文景观。这里汇聚了八方来客，多种宗教、文化、语言在北京融合，兼容并蓄。帝都北京，既有紫禁城为中心的宏伟皇城文化，也有胡同小巷里雅俗的老北京味道。北京在红宫墙外的宁静小路上，在胡同儿的转弯拐角儿，在国贸的匆匆路旁，也在未名湖边的石砖小径。只有用心去感受，去聆听，才能听到北京的内心独白。\n而北京餐桌上的食物同样体现着这两种气质的交融，精致讲究的宫廷御膳，可口廉价的街头小吃，这些即是我们所谓的京味儿。那些已传遍国内外的北京小吃，炒肝、爆肚儿、驴打滚等等；还有那些大街小巷总容易遇到的老字号餐馆，全聚德、东来顺，都彰显出帝都多年深厚的美食历史。\n大碗茶，豆汁儿，冰糖葫芦，驴打滚儿，虽然你也许未必尝过这些小吃，但你知道这就是北京。当然，北京的美食若说只有北京菜那就太片面了，作为一个2000万人口的超级大都会，北京汇集了全国甚至全球的餐饮，这些食物在这里生根发芽，交融创新，让这座古都的味道越来越浓厚，余味无穷。\n",
+            "keyword": "京味儿,帝都,宫廷小吃,老字号"
+        }
+    },
+    "is_array": 1
+}
