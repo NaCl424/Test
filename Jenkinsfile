@@ -1,12 +1,13 @@
 pipeline {
-  agent none
+  agent any
   stages {
     stage('Start') {
       parallel {
         stage('Start') {
           steps {
             echo 'Start Build'
-            sh 'echo \'start build...\''
+            sh '''#!/bin/sh
+echo \'start build...\''''
           }
         }
 
